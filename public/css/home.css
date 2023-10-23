@@ -1,0 +1,173 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body.index {
+    overflow: hidden;
+}
+
+* {
+    font-family: Georgia, serif;
+    cursor: none !important;
+}
+
+#custom-cursor {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 10000;
+    transition: width 0.3s, height 0.3s;
+    background-color: rgba(80, 124, 139, 0.6);
+}
+
+#custom-cursor.hover {
+    width: 55px;
+    height: 55px;
+}
+
+#custom-cursor.explode {
+    animation: explode 1s forwards;
+}
+
+@keyframes explode {
+    50%{
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.6;
+    }
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-content {
+    position: absolute;
+    color: white;
+    left: 10%;
+    text-align: left;
+    }
+
+.slide-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.slide-title {
+    font-size: 7vw;
+    margin-bottom: 0;
+}
+
+.slide-description {
+    font-size: 5vw;
+    margin-top: 0;
+}
+
+.logo {
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 8vw;
+    height: auto;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(172, 145, 95);
+    z-index: 1000;
+    /*display: none;*/
+    transition: clip-path 0.3s ease-in-out;
+}
+
+.inactive {
+    clip-path: circle(0% at 100% 0);
+}
+
+.active {
+    clip-path: circle(75%);
+}
+
+#menu a.logo {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    z-index: 1001;
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 6%;
+    right: -1%;
+    cursor: pointer;
+    font-size: 2vw;
+    z-index: 1000;
+}
+
+.close-menu {
+    position: absolute;
+    top: 6%;
+    right:-1%;
+    cursor: pointer;
+    font-size: 2vw;
+    display: none;
+}
+
+.vertical-text {
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+}
+
+.menu-items {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu-items li {
+    margin-bottom: 20px;
+}
+
+.menu-items a {
+    font-size: 5vw;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+/*.no-scroll {
+    overflow: hidden;
+}*/
