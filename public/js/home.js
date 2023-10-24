@@ -1,6 +1,6 @@
 const images = [
-    {src: 'Felenzi.jpg', title: 'Título 1', description: 'Felenzi', link: '#'},
-    {src: 'EliseEekhout.jpg', title: 'Título 2', description: 'Elise Eekhout', link: '#'},
+    {src: 'Interea.jpg', title: 'Interea', description: 'Alfonso Costa', link: '/exhibitions/exhibition1'},
+    {src: 'Felenzi.jpg', title: 'Título 2', description: 'Felenzi', link: '#'},
     {src: 'GuoyiLiu.jpg', title: 'Título 3', description: 'Guoyi Liu', link: '#'},
     {src: 'HilaryWinfield.jpg', title: 'Título 4', description: 'Hilary Winfield', link: '#'},
     {src: 'MoryOuattara.jpg', title: 'Título 5', description: 'Mory Ouattara', link: '#'}
@@ -22,9 +22,6 @@ window.onload = function() {
             el: '.swiper-pagination',
             clickable: true,
         },
-        //scrollbar: {
-        //    el: '.swiper-scrollbar',
-        //},
     });
 
     images.forEach(image => {
@@ -32,7 +29,7 @@ window.onload = function() {
         slide.className = 'swiper-slide';
         
         const img = document.createElement('img');
-        img.src = `../images/${image.src}`; 
+        img.src = `../images/home/${image.src}`; 
         
         const content = document.createElement('div');
         content.className = 'slide-content';
