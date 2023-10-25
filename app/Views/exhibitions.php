@@ -13,7 +13,7 @@
     <header>
         <?= view('partials/header.php') ?>
     </header>
-    <h1>Exposiciones</h1>
+    <h1>EXPOSICIONES</h1>
     <img class="img-exhibitions" src="images/exhibitions.jpg" alt="Exposiciones">
     <hr>
     <h2>en activo</h2>
@@ -21,48 +21,48 @@
     <h2>hasta xx/xx/xxxx</h2>
     <div class="content-container">
         <div class="exhibition">
-            <img src="/images/home/Felenzi.jpg" alt="Falenzi Exp.">
+            <img src="/images/interea/Interea.jpg" alt="Interea Exp.">
             <div class="info right">
                 <a href="exhibitions/exhibition1">
-                    <h2>Título de la exposición 1</h2>
+                    <h2>Interea</h2>
                 </a>
-                <p>Falenzi</p>
+                <p>Exposición de Alfonso Costa</p>
             </div>
         </div>
         <div class="exhibition reverse">
-            <img src="/images/home/EliseEekhout.jpg" alt="Elise Eekhout Exp.">
+            <img src="/images/home/Rostro.jpg" alt="Latexo Exp.">
             <div class="info">
-                <a href="#">
-                    <h2>Título de la exposición 2</h2>
+                <a href="exhibitions/exhibition2">
+                    <h2>Latexo Do Labirinto</h2>
                 </a>
-                <p>Elise Eekhout</p>
+                <p>Exposición de Antón Patiño</p>
             </div>
         </div>
         <div class="exhibition">
-            <img src="/images/home/GuoyiLiu.jpg" alt="Guoyi Liu Exp.">
+            <img src="/images/home/Casa.jpg" alt="Mar Hernández Exp.">
             <div class="info right">
-                <a href="#">
-                    <h2>Título de la exposición 3</h2>
+                <a href="exhibitions/exhibition3">
+                    <h2>A Derradeira</h2>
                 </a>
-                <p>Guoyi Liu</p>
+                <p>Exposición de Mar Hernández</p>
             </div>
         </div>
         <div class="exhibition reverse">
-            <img src="/images/home/HilaryWinfield.jpg" alt="Hilary Winfield Exp.">
+            <img src="/images/home/Nube.jpg" alt="Ramón Conde Exp.">
             <div class="info">
-                <a href="#">
-                    <h2>Título de la exposición 4</h2>
+                <a href="exhibitions/exhibition4">
+                    <h2>Delirios</h2>
                 </a>
-                <p>Hilary Winfield</p>
+                <p>Exposición de Ramón Conde</p>
             </div>
         </div>
         <div class="exhibition">
-            <img src="/images/home/MoryOuattara.jpg" alt="Mory Ouattara Exp.">
+            <img src="/images/home/Serie.jpg" alt="Sandra Carvalho Exp.">
             <div class="info right">
-                <a href="#">
-                    <h2>Título de la exposición 5</h2>
+                <a href="exhibitions/exhibition5">
+                    <h2>EL INSTRUMENTO DE LA SOMBRA</h2>
                 </a>
-                <p>Mory Ouattara</p>
+                <p>Exposición de Sandra Carvalho</p>
             </div>
         </div>
     </div>

@@ -1,9 +1,18 @@
 const customCursor = document.querySelector('#custom-cursor');
+let mouseX = 0;
+let mouseY = 0;
 
-//Mueve el cursor personalizado a la posición del cursor del ratón
+//Actualiza la posición del cursor personalizado
+function updateCursor() {
+    customCursor.style.left = `${mouseX}px`;
+    customCursor.style.top = `${mouseY}px`;
+}
+
+// Maneja el evento 'mousemove' para actualizar la posición del ratón
 document.addEventListener('mousemove', (e) => {
-    customCursor.style.left = `${e.pageX}px`;
-    customCursor.style.top = `${e.pageY}px`;
+    mouseX = e.clientX;
+    mouseY = e.clientY + window.scrollY; // Considera el desplazamiento vertical
+    updateCursor();
 });
 
 // Añade la clase 'hover' al cursor personalizado cuando el ratón pasa sobre un elemento interactivo
@@ -24,6 +33,11 @@ document.addEventListener('click', () => {
     setTimeout(() => {
         customCursor.classList.remove('explode');
     }, 1000); // Ajustado a 1s para coincidir con la nueva duración de la animación
+});
+
+// Actualiza la posición del cursor al cargar la página
+window.addEventListener('load', () => {
+    updateCursor();
 });
 
 const menuToggle = document.querySelector('#menuToggle');

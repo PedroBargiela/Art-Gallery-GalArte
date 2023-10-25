@@ -1,3 +1,13 @@
+/*@font-face {
+    font-family: 'BaskervilleSerial';
+    src: url('fonts/BaskervilleSerial.otf');
+}*/
+
+@font-face {
+    font-family: 'AestheticRegular';
+    src: url('../font/AestheticRegular.otf');
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -9,7 +19,7 @@ body.index {
 }
 
 * {
-    font-family: Georgia, serif;
+    font-family: 'AestheticRegular';
     cursor: none !important;
 }
 

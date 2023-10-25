@@ -1,9 +1,9 @@
 const images = [
-    {src: 'Interea.jpg', title: 'Interea', description: 'Alfonso Costa', link: '/exhibitions/exhibition1'},
-    {src: 'Felenzi.jpg', title: 'Título 2', description: 'Felenzi', link: '#'},
-    {src: 'GuoyiLiu.jpg', title: 'Título 3', description: 'Guoyi Liu', link: '#'},
-    {src: 'HilaryWinfield.jpg', title: 'Título 4', description: 'Hilary Winfield', link: '#'},
-    {src: 'MoryOuattara.jpg', title: 'Título 5', description: 'Mory Ouattara', link: '#'}
+    {src: 'Interea.jpg', title: 'INTEREA', description: 'Alfonso Costa', link: '/exhibitions/exhibition1'},
+    {src: 'Rostro.jpg', title: 'LATEXO DO LABIRINTO', description: 'Antón Patiño', link: '/exhibitions/exhibition2'},
+    {src: 'Casa.jpg', title: 'A DERRADEIRA', description: 'Mar Hernández', link: '/exhibitions/exhibition3'},
+    {src: 'Nube.jpg', title: 'DELIRIOS', description: 'Ramón Conde', link: '/exhibitions/exhibition4'},
+    {src: 'Serie.jpg', title: 'EL INSTRUMENTO DE LA SOMBRA', description: ' Sandra Carvalho', link: '/exhibitions/exhibition5'}
 ];
 
 let currentSlideIndex = 0;
