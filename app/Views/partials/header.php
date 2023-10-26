@@ -9,7 +9,7 @@
     </a>
     <ul class="menu-items" id="menu-items">
         <li><a href="/exhibitions">Exposiciones</a></li>
-        <li><a href="#">Dirección 2</a></li>
+        <li><a href="/artists">Artistas</a></li>
         <li><a href="#">Dirección 3</a></li>
         <li><a href="#">Dirección 4</a></li>
     </ul>

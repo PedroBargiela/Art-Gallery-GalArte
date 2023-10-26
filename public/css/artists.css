@@ -1,0 +1,106 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(247, 243, 239);
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    font-size: 4vw;
+}
+
+.title-right {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(50%, -50%)rotate(90deg);
+    font-size: 4vw;
+}
+
+/*.title {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.title h1 {
+    font-size: 4vw;
+    margin-bottom: -100%;
+}
+
+.title .move-right {
+    position: relative;
+    right: -35%;
+}*/
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: black;
+}
+
+.artist-list-container {
+    position: absolute;
+    bottom: 1%;
+    left: 9%;
+    font-size: 2.5vw;
+    overflow: hidden;
+}
+
+.artist-list {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    z-index: 1000;
+}
+
+.artist-list:hover::after {
+    width: 100%;
+}
+
+.artist-list::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0.3vw;
+    background-color: black;
+    transition: width .3s ease-in-out;
+}
+
+.artist-list::before {
+    content: "\2192"; /* Código de carácter Unicode para la flecha izquierda */
+    margin-right: 5px;
+}

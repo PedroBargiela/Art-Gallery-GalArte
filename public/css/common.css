@@ -50,51 +50,6 @@ body.index {
     }
 }
 
-.swiper-container {
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-}
-
-.swiper-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.swiper-pagination-bullet-active {
-    background: black;
-}
-
-.slide-content {
-    position: absolute;
-    color: white;
-    left: 10%;
-    text-align: left;
-    }
-
-.slide-content a {
-    color: white;
-    text-decoration: none;
-}
-
-.slide-title {
-    font-size: 7vw;
-    margin-bottom: 0;
-}
-
-.slide-description {
-    font-size: 5vw;
-    margin-top: 0;
-}
-
 .logo {
     position: fixed;
     top: 2%;
@@ -176,7 +131,6 @@ body.index {
     text-decoration: none;
     display: block;
 }
-
 /*.no-scroll {
     overflow: hidden;
 }*/
