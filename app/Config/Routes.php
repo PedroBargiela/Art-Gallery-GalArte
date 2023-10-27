@@ -19,4 +19,14 @@ $routes->group('exhibitions', function ($routes) {
 $routes->group('artists', function ($routes) {
     $routes->get('/', 'ArtistsController::index');
     $routes->get('list', 'ListController::index');
+    $routes->get('artist1', 'Artists\Artist1Controller::index');
+    $routes->get('artist2', 'Artists\Artist2Controller::index');
+    $routes->get('artist3', 'Artists\Artist3Controller::index');
+    $routes->get('artist4', 'Artists\Artist4Controller::index');
+    $routes->get('artist5', 'Artists\Artist5Controller::index');
+    $routes->get('artist6', 'Artists\Artist6Controller::index');
+    $routes->get('artist7', 'Artists\Artist7Controller::index');
+    $routes->get('artist8', 'Artists\Artist8Controller::index');
+    $routes->get('artist9', 'Artists\Artist9Controller::index');
+    $routes->get('artist10', 'Artists\Artist10Controller::index');
 });

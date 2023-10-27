@@ -1,15 +1,15 @@
 window.onload = function() {
     const images = [
-        {src: '/images/artists/AlfonsoCosta/Sin-Titulo.jpg', title:'Alfonso Costa', link:'#'},
-        {src: '/images/artists/AntonPatiño/Sin-Titulo.jpg', title: 'Antón Patiño', link:'#'},
-        {src: '/images/artists/Aramburu/Hierros.jpeg', title: 'Aramburu', link:'#'},
-        {src: '/images/artists/CarlosAlcolea/La-Ducha.jpg', title: 'Carlos Alcolea', link:'#'},
-        {src: '/images/artists/XoseArtiaga/Sin-Titulo.jpg', title: 'Xosé Artiaga', link:'#'},
-        {src: '/images/artists/JorgeBarbi/Hibernaculo.jpg', title: 'Jorge Barbi', link:'#'},
-        {src: '/images/artists/AntonioMurado/Pagina2.jpg', title: 'Antonio Murado', link:'#'},
-        {src: '/images/artists/AntonLamazares/Sufrido.jpg', title: 'Antón Lamazares', link:'#'},
-        {src: '/images/artists/AntonSobral/Marina.jpg', title: 'Antón Sobral', link:'#'},
-        {src: '/images/artists/JorgeCastillo/Composicion.jpg', title: 'Jorge Castillo', link:'#'},
+        {src: '/images/artists/AlfonsoCosta/Sin-Titulo.jpg', title:'Alfonso Costa', link:'/artists/artist1'},
+        {src: '/images/artists/AntonPatiño/Sin-Titulo.jpg', title: 'Antón Patiño', link:'/artists/artist2'},
+        {src: '/images/artists/Aramburu/Hierros.jpeg', title: 'Aramburu', link:'/artists/artist3'},
+        {src: '/images/artists/CarlosAlcolea/La-Ducha.jpg', title: 'Carlos Alcolea', link:'/artists/artist4'},
+        {src: '/images/artists/XoseArtiaga/Sin-Titulo.jpg', title: 'Xosé Artiaga', link:'/artists/artist5'},
+        {src: '/images/artists/JorgeBarbi/Hibernaculo.jpg', title: 'Jorge Barbi', link:'/artists/artist6'},
+        {src: '/images/artists/AntonioMurado/Pagina2.jpg', title: 'Antonio Murado', link:'/artists/artist7'},
+        {src: '/images/artists/AntonLamazares/Sufrido.jpg', title: 'Antón Lamazares', link:'/artists/artist8'},
+        {src: '/images/artists/AntonSobral/Marina.jpg', title: 'Antón Sobral', link:'/artists/artist9'},
+        {src: '/images/artists/JorgeCastillo/Composicion.jpg', title: 'Jorge Castillo', link:'/artists/artist10'},
     ]
 
     var swiper = new Swiper('.swiper', {
