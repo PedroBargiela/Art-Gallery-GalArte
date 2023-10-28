@@ -102,3 +102,4 @@ $console->showHeader($suppress);
 $exit = $console->run();
 
 exit(is_int($exit) ? $exit : EXIT_SUCCESS);
+g

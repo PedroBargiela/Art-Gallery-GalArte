@@ -123,3 +123,5 @@ if ($modified === []) {
 
     echo 'Run `composer update` to sync changes with your vendor folder.' . PHP_EOL;
 }
+
+g
