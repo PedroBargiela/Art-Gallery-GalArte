@@ -17,7 +17,7 @@ h1 {
     font-size: 7vw;
 }
 
-h2 {
+h3 {
     position: relative;
     text-align: center;
 }
@@ -37,7 +37,7 @@ p {
     line-height: 1.5;
 }
 
-.part_artists {
+.part_exhibitions {
     display: flex;
     flex-direction: column;
 }
@@ -96,7 +96,7 @@ img {
     object-position: center;
 }
 
-@charset "UTF-8";
+
 /*!
  *
  * bttn.css - https://ganapativs.github.io/bttn.css
@@ -281,14 +281,6 @@ img {
     position: fixed;
     right: -2.3%;
     top: 70%;
-    transform: translateY(-50%) rotate(90deg);
-    color: black;
-}
-
-.fixed-button-works {
-    position: fixed;
-    right: 1.5%;
-    top: 40%;
     transform: translateY(-50%) rotate(90deg);
     color: black;
 }

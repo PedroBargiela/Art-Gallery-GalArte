@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alfonso Costa</title>
-    <link rel="stylesheet" href="/css/artists/all-artists.css">
+    <title>Obras</title>
     <link rel="stylesheet" href="/css/common.css">
 </head>
 
@@ -13,9 +12,7 @@
     <header>
         <?= view('partials/header.php') ?>
     </header>
-    <div class="part_artists">
-        <?= view('partials/part_artists.php') ?>
-    </div>
+    <h1>OBRAS</h1>
 
 
     <div id="custom-cursor"></div>

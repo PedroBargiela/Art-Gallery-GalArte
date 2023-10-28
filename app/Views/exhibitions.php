@@ -23,7 +23,7 @@
         <div class="exhibition">
             <img src="/images/interea/Interea.jpg" alt="Interea Exp.">
             <div class="info right">
-                <a href="exhibitions/exhibition1">
+                <a href="/exhibitions/Interea">
                     <h2>Interea</h2>
                 </a>
                 <p>Exposición de Alfonso Costa</p>
@@ -32,7 +32,7 @@
         <div class="exhibition reverse">
             <img src="/images/home/Rostro.jpg" alt="Latexo Exp.">
             <div class="info">
-                <a href="exhibitions/exhibition2">
+                <a href="/exhibitions/Latexo-Do-Labirinto">
                     <h2>Latexo Do Labirinto</h2>
                 </a>
                 <p>Exposición de Antón Patiño</p>
@@ -41,7 +41,7 @@
         <div class="exhibition">
             <img src="/images/home/Casa.jpg" alt="Mar Hernández Exp.">
             <div class="info right">
-                <a href="exhibitions/exhibition3">
+                <a href="/exhibitions/A-Derradeira">
                     <h2>A Derradeira</h2>
                 </a>
                 <p>Exposición de Mar Hernández</p>
@@ -50,7 +50,7 @@
         <div class="exhibition reverse">
             <img src="/images/home/Nube.jpg" alt="Ramón Conde Exp.">
             <div class="info">
-                <a href="exhibitions/exhibition4">
+                <a href="/exhibitions/Delirios">
                     <h2>Delirios</h2>
                 </a>
                 <p>Exposición de Ramón Conde</p>
@@ -59,7 +59,7 @@
         <div class="exhibition">
             <img src="/images/home/Serie.jpg" alt="Sandra Carvalho Exp.">
             <div class="info right">
-                <a href="exhibitions/exhibition5">
+                <a href="/exhibitions/El-Instrumento-De-La-Sombra">
                     <h2>EL INSTRUMENTO DE LA SOMBRA</h2>
                 </a>
                 <p>Exposición de Sandra Carvalho</p>
