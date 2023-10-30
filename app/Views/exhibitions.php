@@ -21,7 +21,7 @@
     <h2>hasta xx/xx/xxxx</h2>
     <div class="content-container">
         <div class="exhibition">
-            <img src="/images/interea/Interea.jpg" alt="Interea Exp.">
+            <img src="/images/home/Interea.jpg" alt="Interea Exp.">
             <div class="info right">
                 <a href="/exhibitions/Interea">
                     <h2>Interea</h2>

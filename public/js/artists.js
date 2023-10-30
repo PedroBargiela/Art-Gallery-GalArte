@@ -1,15 +1,15 @@
 window.onload = function() {
     const images = [
-        {src: '/images/artists/AlfonsoCosta/Sin-Titulo.jpg', title:'Alfonso Costa', link:'/artists/Alfonso-Costa'},
-        {src: '/images/artists/AntonPatiño/Sin-Titulo.jpg', title: 'Antón Patiño', link:'/artists/Anton-Patiño'},
-        {src: '/images/artists/Aramburu/Hierros.jpeg', title: 'Aramburu', link:'/artists/Aramburu'},
-        {src: '/images/artists/CarlosAlcolea/La-Ducha.jpg', title: 'Carlos Alcolea', link:'/artists/Carlos-Alcolea'},
-        {src: '/images/artists/XoseArtiaga/Sin-Titulo.jpg', title: 'Xosé Artiaga', link:'/artists/Xose-Artiaga'},
-        {src: '/images/artists/JorgeBarbi/Hibernaculo.jpg', title: 'Jorge Barbi', link:'/artists/Jorge-Barbi'},
-        {src: '/images/artists/AntonioMurado/Pagina2.jpg', title: 'Antonio Murado', link:'/artists/Antonio-Murado'},
-        {src: '/images/artists/AntonLamazares/Sufrido.jpg', title: 'Antón Lamazares', link:'/artists/Anton-Lamazares'},
-        {src: '/images/artists/AntonSobral/Marina.jpg', title: 'Antón Sobral', link:'/artists/Anton-Sobral'},
-        {src: '/images/artists/JorgeCastillo/Composicion.jpg', title: 'Jorge Castillo', link:'/artists/Jorge-Castillo'},
+        {src: '/images/artists/AlfonsoCosta/Sin-Titulo.jpg', title:'ALFONSO COSTA', link:'/artists/Alfonso-Costa'},
+        {src: '/images/artists/AntonPatiño/Sin-Titulo.jpg', title: 'ANTÓN PATIÑO', link:'/artists/Anton-Patiño'},
+        {src: '/images/artists/Aramburu/Hierros.jpeg', title: 'ARAMBURU', link:'/artists/Aramburu'},
+        {src: '/images/artists/CarlosAlcolea/La-Ducha.jpg', title: 'CARLOS ALCOLEA', link:'/artists/Carlos-Alcolea'},
+        {src: '/images/artists/XoseArtiaga/Sin-Titulo.jpg', title: 'XOSÉ ARTIAGA', link:'/artists/Xose-Artiaga'},
+        {src: '/images/artists/JorgeBarbi/Hibernaculo.jpg', title: 'JORGE BARBI', link:'/artists/Jorge-Barbi'},
+        {src: '/images/artists/AntonioMurado/Pagina2.jpg', title: 'ANTONIO MURADO', link:'/artists/Antonio-Murado'},
+        {src: '/images/artists/AntonLamazares/Sufrido.jpg', title: 'ANTÓN LAMAZARES', link:'/artists/Anton-Lamazares'},
+        {src: '/images/artists/AntonSobral/Marina.jpg', title: 'ANTÓN SOBRAL', link:'/artists/Anton-Sobral'},
+        {src: '/images/artists/JorgeCastillo/Composicion.jpg', title: 'JORGE CASTILLO', link:'/artists/Jorge-Castillo'},
     ]
 
     var swiper = new Swiper('.swiper', {

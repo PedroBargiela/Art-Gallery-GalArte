@@ -15,7 +15,7 @@ class ArtistsController extends BaseController
             case 'Alfonso-Costa':
                 $artistData = [
                     'title' => 'Alfonso Costa',
-                    'name' => 'Alfonso Costa',
+                    'name' => 'ALFONSO COSTA',
                     'origin' => 'Noia, A Coruña',
                     'image_title' => '/images/artists/AlfonsoCosta/Inicio.jpg',
                     'paragraph1' => 'Alfonso Costa Beiro nació en 1943 en Noia, A Coruña. Pasó su infancia y adolescencia en su ciudad natal, junto al océano Atlántico. A los diecisiete años, se trasladó a Barcelona. A pesar de tener una vocación definida, no tenía un oficio concreto y atravesó dificultades en la gran ciudad hasta que en 1967 realizó su primera exposición.',
@@ -37,7 +37,7 @@ class ArtistsController extends BaseController
             case 'Anton-Patiño':
                 $artistData = [
                     'title' => 'Antón Patiño',
-                    'name' => 'Antón Patiño',
+                    'name' => 'ANTÓN PATIÑO',
                     'origin' => 'Monforte de Lemos, Lugo',
                     'image_title' => '/images/artists/AntonPatiño/Inicio.jpg',
                     'paragraph1' => 'Artista visual y escritor. Realizó exposiciones individuales en galerías y museos de Amsterdam, Estocolmo, New York, París, Burdeos, Zürich, Stuttgart. Obras en diferentes museos: Museo Nacional Centro de Arte Reina Sofía, CGAC, MEIAC, MACBA, Artium. Su trabajo ha sido definido por el crítico norteamericano Donald Kuspit como “expresionista conceptual”. Actualmente está pendiente de inauguración la exposición “Caosmos” en el CGAC, Santiago de Compostela.',
@@ -59,7 +59,7 @@ class ArtistsController extends BaseController
             case 'Aramburu':
                 $artistData = [
                     'title' => 'Manuel Aramburu',
-                    'name' => 'Manuel Aramburu',
+                    'name' => 'MANUEL ARAMBURU',
                     'origin' => 'León-Pontevedra',
                     'image_title' => '/images/artists/Aramburu/Inicio.jpg',
                     'paragraph1' => 'Manuel Aramburu Núñez nació el 8 de abril de 1936 en León, España, y falleció el 20 de junio de 2015 en Pontevedra, España. Inició su aprendizaje en el mundo de la pintura en Pontevedra, ciudad a la que tuvo que emigrar su familia poco tiempo después de su nacimiento debido a la Guerra Civil. Aramburu es uno de los maestros de la pintura actual de Galicia, perteneciente a la llamada “generación de vanguardias y silencios”, un grupo de artistas que desarrollaron su actividad creativa a partir de la postguerra española.',
@@ -81,7 +81,7 @@ class ArtistsController extends BaseController
             case 'Carlos-Alcolea':
                 $artistData = [
                     'title' => 'Carlos Alcolea',
-                    'name' => 'Carlos Alcolea',
+                    'name' => 'CARLOS ALCOLEA',
                     'origin' => 'A Coruña',
                     'image_title' => '/images/artists/CarlosAlcolea/Inicio.jpeg',
                     'paragraph1' => 'Carlos García Alcolea nació en 1949 en La Coruña, España, y falleció el 20 de septiembre de 1992 en Madrid. Pasó parte de su juventud en Cádiz y luego se trasladó a Madrid en 1967 para comenzar sus estudios de Derecho. Sin embargo, decidió dedicarse a la pintura y al año siguiente viajó a París y Gran Bretaña, donde descubrió la obra de Ronald Kitaj y David Hockney1. Posteriormente, conoció a Luis Gordillo, quien lo influenció.',
@@ -103,7 +103,7 @@ class ArtistsController extends BaseController
             case 'Xose-Artiaga':
                 $artistData = [
                     'title' => 'Xosé Artiaga',
-                    'name' => 'Xosé Artiaga',
+                    'name' => 'XOSÉ ARTIAGA',
                     'origin' => 'Mondoñedo, Lugo',
                     'image_title' => '/images/artists/XoseArtiaga/Inicio.jpg',
                     'paragraph1' => 'Xosé Artiaga Barreira nació el 10 de julio de 1955 en Mondoñedo, Galicia. Estudió en la Escuela Superior de Bellas Artes de San Fernando de Madrid. En 1983 presentó su tesina de convalidación para licenciatura en la Facultad de Bellas Artes (Universidad Complutense de Madrid) con el título “La cultura castreña”, dirigida por el profesor Juan Fernando de Laiglesia. Ha participado en numerosos certámenes de arte de modo regular, en muchas ocasiones de la mano de la Galería Emilio Navarro, de Madrid.',
@@ -125,7 +125,7 @@ class ArtistsController extends BaseController
             case 'Jorge-Barbi':
                 $artistData = [
                     'title' => 'Jorge Barbi',
-                    'name' => 'Jorge Barbi',
+                    'name' => 'JORGE BARBI',
                     'origin' => 'A Guarda, Pontevedra',
                     'image_title' => '/images/artists/JorgeBarbi/Largo.png',
                     'paragraph1' => 'Jorge Barbi Alonso nació en 1950 en A Guarda, Pontevedra, España. Desde sus primeras exposiciones individuales en la galería Gamarra y Garrigues en Madrid (1989, 1991, 1995), se nos muestra un trabajo enraizado con una vida en la que la magia del viaje y la capacidad de asombro no se han disipado. De forma simultánea, se siente interpelado por aspectos de su realidad más íntima: el paso del tiempo, el azar, los juegos de sentido del lenguaje, como por preocupaciones extraartísticas que se sedimentan de forma precisa y rigurosa en sus archivos fotográficos, esculturas e instalaciones diseñadas para sitios específicos.',
@@ -147,7 +147,7 @@ class ArtistsController extends BaseController
             case 'Antonio-Murado':
                 $artistData = [
                     'title' => 'Antonio Murado',
-                    'name' => 'Antonio Murado',
+                    'name' => 'ANTONIO MURADO',
                     'origin' => 'Lugo',
                     'image_title' => '/images/artists/AntonioMurado/Inicio2.jpg',
                     'paragraph1' => 'Antonio J. Murado López nació en 1964 en Lugo, España. Desde pequeño mostró interés por la plástica, en concreto, por las imágenes que figuraban en las enciclopedias de su casa. Estudió Bellas Artes en la Universidad de Salamanca, donde se licenció en 1988. Comenzó a exponer en muestras colectivas en 1985 y realizó su primera exposición individual en 1987, en Santiago de Compostela.',
@@ -169,7 +169,7 @@ class ArtistsController extends BaseController
             case 'Anton-Lamazares':
                 $artistData = [
                     'title' => 'Antón Lamazares',
-                    'name' => 'Antón Lamazares',
+                    'name' => 'ANTÓN LAMAZARES',
                     'origin' => 'Lalín, Pontevedra',
                     'image_title' => '/images/artists/AntonLamazares/Inicio.jpg',
                     'paragraph1' => 'Antón Lamazares Silva nació el 2 de enero de 1954 en Lalín, Pontevedra, España. Pasó su infancia en Maceira, una aldea de Lalín, y el entorno rural de su infancia dejó una profunda huella en su imaginario y su proceso creador. Realizó gran parte de sus estudios internado en el convento franciscano de Herbón, entre 1963 y 1969; en esos años se entregó a la lectura ferviente de textos literarios, sobre todo de los clásicos grecolatinos.',
@@ -191,7 +191,7 @@ class ArtistsController extends BaseController
             case 'Anton-Sobral':
                 $artistData = [
                     'title' => 'Antón Sobral',
-                    'name' => 'Antón Sobral',
+                    'name' => 'ANTÓN SOBRAL',
                     'origin' => 'Marín, Pontevedra',
                     'image_title' => '/images/artists/AntonSobral/Inicio.jpg',
                     'paragraph1' => 'Antón Sobral Iglesias nació el 4 de abril de 1952 en Marín, Pontevedra. Desde muy temprana edad le gustó pintar; con dieciséis años participa en sus primeras muestras en Pontevedra y Santiago de Compostela. Estudió Matemáticas, y posteriormente Historia del Arte, al tiempo que fue miembro de la directiva de la Asociación Cultural O Galo y presidió la primera Asociación de Artistas Plásticos que contribuyó a fundar.',
@@ -213,7 +213,7 @@ class ArtistsController extends BaseController
             case 'Jorge-Castillo':
                 $artistData = [
                     'title' => 'Jorge Castillo',
-                    'name' => 'Jorge Castillo',
+                    'name' => 'JORGE CASTILLO',
                     'origin' => 'Pontevedra',
                     'image_title' => '/images/artists/JorgeCastillo/inicio.jpg',
                     'paragraph1' => 'Jorge Castillo nació en 1933 en Pontevedra, España1. Sus primeros años transcurrieron en Buenos Aires, Argentina, a donde su familia se vio forzada a emigrar por razones políticas. Con 13 años comenzó a escribir sus primeras historias cortas. En 1956, viajó a Madrid y publicó varios poemas en las revistas Índice y Poesía Española, además de vender sus dibujos en la Galería Biosca.',

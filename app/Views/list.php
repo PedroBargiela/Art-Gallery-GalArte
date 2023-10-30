@@ -18,61 +18,61 @@
         <a href="/artists/Alfonso-Costa">
             <div class="artist-item">
                 <img src="/images/artists/AlfonsoCosta/Sin-Titulo.jpg" alt="Alfonso Costa">
-                <h2>Alfonso Costa</h2>
+                <h2>ALFONSO COSTA</h2>
             </div>
         </a>
         <a href="/artists/Anton-Patiño">
             <div class="artist-item">
                 <img src="/images/artists/AntonPatiño/Sin-Titulo.jpg" alt="Antón Patiño">
-                <h2>Antón Patiño</h2>
+                <h2>ANTÓN PATIÑO</h2>
             </div>
         </a>
         <a href="/artists/Aramburu">
             <div class="artist-item">
                 <img src="/images/artists/Aramburu/Hierros.jpeg" alt="Aramburu">
-                <h2>Aramburu</h2>
+                <h2>ARAMBURU</h2>
             </div>
         </a>
         <a href="/artists/Carlos-Alcolea">
             <div class="artist-item">
                 <img src="/images/artists/CarlosAlcolea/La-Ducha.jpg" alt="Carlos Alcolea">
-                <h2>Carlos Alcolea</h2>
+                <h2>CARLOS ALCOLEA</h2>
             </div>
         </a>
         <a href="/artists/Xose-Artiaga">
             <div class="artist-item">
                 <img src="/images/artists/XoseArtiaga/Sin-Titulo.jpg" alt="Xosé Artiaga">
-                <h2>Xosé Artiaga</h2>
+                <h2>XOSÉ ARTIAGA</h2>
             </div>
         </a>
         <a href="/artists/Jorge-Barbi">
             <div class="artist-item">
                 <img src="/images/artists/JorgeBarbi/Hibernaculo.jpg" alt="Jorge Barbi">
-                <h2>Jorge Barbi</h2>
+                <h2>JORGE BARBI</h2>
             </div>
         </a>
         <a href="/artists/Antonio-Murado">
             <div class="artist-item">
                 <img src="/images/artists/AntonioMurado/Pagina2.jpg" alt="Antonio Murado">
-                <h2>Antonio Murado</h2>
+                <h2>ANTONIO MURADDO</h2>
             </div>
         </a>
         <a href="/artists/Anton-Lamazares">
             <div class="artist-item">
                 <img src="/images/artists/AntonLamazares/Sufrido.jpg" alt="Antón Lamazares">
-                <h2>Antón Lamazares</h2>
+                <h2>ANTÓN LAMAZARES</h2>
             </div>
         </a>
         <a href="/artists/Anton-Sobral">
             <div class="artist-item">
                 <img src="/images/artists/AntonSobral/Marina.jpg" alt="Antón Sobral">
-                <h2>Antón Sobral</h2>
+                <h2>ANTÓN SOBRAL</h2>
             </div>
         </a>
         <a href="/artists/Jorge-Castillo">
             <div class="artist-item">
                 <img src="/images/artists/JorgeCastillo/Composicion.jpg" alt="Jorge Castillo">
-                <h2>Jorge Castillo</h2>
+                <h2>JORGE CASTILLO</h2>
             </div>
         </a>
         <a href="/artists" class="fixed-button">
