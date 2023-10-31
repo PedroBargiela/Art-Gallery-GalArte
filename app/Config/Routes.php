@@ -21,4 +21,5 @@ $routes->group('artists', function ($routes) {
 
 $routes->group('works', function ($routes) {
     $routes->get('/', 'WorksController::index');
+    $routes->get('(:segment)', 'WorksController::show/$1');
 });

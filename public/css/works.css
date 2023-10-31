@@ -77,3 +77,21 @@ body {
     border-top: 30px solid black;
     margin: 0 auto;
 }
+
+#filter-form {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#filter-form select {
+    border: none;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    margin-bottom: 7%;
+    margin-right: 3%;
+    font-size: 3vw;
+    background-color: rgb(247, 243, 239);
+}

@@ -1,9 +1,9 @@
 const images = [
     {src: 'Interea.jpg', title: 'INTEREA', description: 'Alfonso Costa', link: '/exhibitions/Interea'},
-    {src: 'Rostro.jpg', title: 'LATEXO DO LABIRINTO', description: 'Antón Patiño', link: '/exhibitions/Latexo-Do-Labirinto'},
-    {src: 'Casa.jpg', title: 'A DERRADEIRA', description: 'Mar Hernández', link: '/exhibitions/A-Derradeira'},
+    {src: 'Rostro2.jpg', title: 'LATEXO DO LABIRINTO', description: 'Antón Patiño', link: '/exhibitions/Latexo-Do-Labirinto'},
+    {src: 'Casa2.jpg', title: 'A DERRADEIRA', description: 'Mar Hernández', link: '/exhibitions/A-Derradeira'},
     {src: 'Nube.jpg', title: 'DELIRIOS', description: 'Ramón Conde', link: '/exhibitions/Delirios'},
-    {src: 'Serie.jpg', title: 'EL INSTRUMENTO DE LA SOMBRA', description: ' Sandra Carvalho', link: '/exhibitions/El-Instrumento-De-La-Sombra'}
+    {src: 'Serie2.jpg', title: 'EL INSTRUMENTO DE LA SOMBRA', description: ' Sandra Carvalho', link: '/exhibitions/El-Instrumento-De-La-Sombra'}
 ];
 
 let currentSlideIndex = 0;
