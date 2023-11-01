@@ -1,0 +1,381 @@
+* {
+    overflow: auto;
+}
+
+body, html {
+    background-color: rgb(184, 171, 157);
+}
+
+header {
+    background-color: transparent !important;
+    margin-top: 4%;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    font-size: 7vw;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Italic';
+    src: url('../font/PlayfairDisplay-Italic.ttf');
+    padding-left: -20%;
+    padding-right: -20%;
+}
+
+p {
+    font-family: 'PlayfairDisplay-Italic';
+    position: relative;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.part_works {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-height: 120vh;
+    width: auto;
+    object-fit: contain;
+}
+
+.img_work {
+    margin: 3% 12%;
+}
+
+
+.information {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.card {
+    display: flex;
+    overflow: visible;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 35px;
+    background: rgb(236, 228, 221);
+    box-shadow: 16px 16px 32px #c8c8c8,
+        -16px -16px 32px #fefefe;
+    border-radius: 8px;
+}
+
+.inputBox {
+    position: relative;
+    overflow: visible;
+    width: 30vw;
+    height: 12vh;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    background: transparent;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    transition: 0.1s;
+    border-bottom-left-radius: 8px;
+}
+
+.inputBox textarea {
+    width: 100%;
+    height: 15vh;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    color: #000;
+    font-size: 1em;
+    background: transparent;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    transition: 0.1s;
+    border-bottom-left-radius: 8px;
+}
+
+.inputBox span {
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+    transform: translateY(-4px);
+    margin-left: 10px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 12px;
+    color: #000;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 3px;
+    border-radius: 8px;
+}
+
+.inputBox input:valid~span,
+.inputBox input:focus~span {
+    transform: translateX(113px) translateY(-15px);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #000;
+    letter-spacing: 0.2em;
+    color: #fff;
+    border: 2px;
+}
+
+.inputBox input:valid,
+.inputBox input:focus {
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+.inputBox textarea:valid~span,
+.inputBox textarea:focus~span {
+    transform: translateX(113px) translateY(-15px);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #000;
+    letter-spacing: 0.2em;
+    color: #fff;
+    border: 2px;
+}
+
+.inputBox textarea:valid,
+.inputBox textarea:focus {
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+.enter {
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+}
+
+.enter:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+
+
+
+
+.bttn-default {
+    color: #fff;
+}
+.bttn-primary,
+.bttn,
+.bttn-lg,
+.bttn-md,
+.bttn-sm,
+.bttn-xs {
+    color: #1d89ff;
+}
+.bttn-warning {
+    color: #feab3a;
+}
+.bttn-danger {
+    color: #ff5964;
+}
+.bttn-success {
+    color: #28b78d;
+}
+.bttn-royal {
+    color: #bd2df5;
+}
+.bttn,
+.bttn-lg,
+.bttn-md,
+.bttn-sm,
+.bttn-xs {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    border-color: transparent;
+    background: transparent;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+}
+.bttn-lg {
+    padding: 8px 15px;
+    font-size: 24px;
+    font-family: inherit;
+}
+.bttn-md {
+    font-size: 20px;
+    font-family: inherit;
+    padding: 5px 12px;
+}
+.bttn-sm {
+    padding: 4px 10px;
+    font-size: 16px;
+    font-family: inherit;
+}
+.bttn-xs {
+    padding: 3px 8px;
+    font-size: 12px;
+    font-family: inherit;
+}
+.bttn-stretch {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    border-color: transparent;
+    background: transparent;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    font-size: 20px;
+    font-family: inherit;
+    padding: 5px 12px;
+    overflow: hidden;
+    border-width: 0;
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+    letter-spacing: 0;
+    -webkit-transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+    transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.bttn-stretch:after,
+.bttn-stretch:before {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    content: '';
+    opacity: 0.65;
+    -webkit-transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+    transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+}
+.bttn-stretch:after {
+    top: 0;
+}
+.bttn-stretch:before {
+    bottom: 0;
+}
+.bttn-stretch:hover,
+.bttn-stretch:focus {
+    letter-spacing: 2px;
+    opacity: 0.9;
+    -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+    transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.bttn-stretch:hover:after,
+.bttn-stretch:focus:after {
+    opacity: 1;
+    -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+    transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+}
+.bttn-stretch:hover:before,
+.bttn-stretch:focus:before {
+    opacity: 1;
+    -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+    transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+}
+.bttn-stretch.bttn-xs {
+    padding: 3px 8px;
+    font-size: 12px;
+    font-family: inherit;
+}
+.bttn-stretch.bttn-sm {
+    padding: 4px 10px;
+    font-size: 16px;
+    font-family: inherit;
+}
+.bttn-stretch.bttn-md {
+    font-size: 2vw;
+    font-family: inherit;
+    padding: 5px 12px;
+}
+.bttn-stretch.bttn-lg {
+    padding: 8px 15px;
+    font-size: 24px;
+    font-family: inherit;
+}
+.bttn-stretch.bttn-default {
+    color: #fff;
+}
+.bttn-stretch.bttn-primary {
+    color: black;
+}
+.bttn-stretch.bttn-warning {
+    color: #feab3a;
+}
+.bttn-stretch.bttn-danger {
+    color: #ff5964;
+}
+.bttn-stretch.bttn-success {
+    color: #28b78d;
+}
+.bttn-stretch.bttn-royal {
+    color: #bd2df5;
+}
+
+.fixed-button1 {
+    position: fixed;
+    left: -4%;
+    top: 80%;
+    transform: translateY(-50%) rotate(-90deg);
+    color: black;
+}
+
+.fixed-button2 {
+    position: fixed;
+    right: -2.3%;
+    top: 80%;
+    transform: translateY(-50%) rotate(90deg);
+    color: black;
+}
+
+.fixed-button-works {
+    position: fixed;
+    right: -0.5%;
+    top: 40%;
+    transform: translateY(-50%) rotate(90deg);
+    color: black;
+}

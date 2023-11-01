@@ -14,22 +14,24 @@ class WorksController extends BaseController
         switch ($work) {
             case 'A-Chambra-Branca':
                 $workData = [
+                    'title' => 'A Chambra Branca',
                     'name' => 'A Chambra Branca',
                     'author' => 'Seoane',
                     'image_work' => '/images/works/A-Chambra-Branca.jpg',
                     'type' => 'Óleo/tela',
                     'dimensions' => '100 x 81 cm',
                     'year' => '1969',
-                    'button_link1' => '/works/',
+                    'button_link1' => '/works/Venecia',
                     'button_text1' => 'ver anterior',
                     'button_link2' => '/works/A-Ría',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'A-Ría':
                 $workData = [
+                    'title' => 'A Ría',
                     'name' => 'A Ría',
                     'author' => 'Nacho Costa',
                     'image_work' => '/images/works/A-Ria.jpg',
@@ -41,11 +43,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Abismo-I',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Abismo-I':
                 $workData = [
+                    'title' => 'Abismo I',
                     'name' => 'Abismo I',
                     'author' => 'Antón Pulido',
                     'image_work' => '/images/works/Abismo.jpg',
@@ -57,11 +60,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Anónimo',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Anónimo':
                 $workData = [
+                    'title' => 'Anónimo',
                     'name' => 'Anónimo',
                     'author' => 'Alfonso Costa',
                     'image_work' => '/images/works/Anonimo.jpg',
@@ -73,11 +77,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Arlequín',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Arlequín':
                 $workData = [
+                    'title' => 'Arlequin',
                     'name' => 'Arlequín',
                     'author' => 'Jorge CAstillo',
                     'image_work' => '/images/works/Arlequin.jpg',
@@ -89,11 +94,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Barcos-Al-Atardecer',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Barcos-Al-Atardecer':
                 $workData = [
+                    'title' => 'Barcos Al Atardecer',
                     'name' => 'Barcos Al Atardecer',
                     'author' => 'Eloy Hernández',
                     'image_work' => '/images/works/Barcos.jpg',
@@ -105,11 +111,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Bisonte',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Bisonte':
                 $workData = [
+                    'title' => 'Bisonte',
                     'name' => 'Bisonte',
                     'author' => 'Ramón Conde',
                     'image_work' => '/images/works/Bisonte.jpg',
@@ -121,14 +128,15 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Borrachos',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Borrachos':
                 $workData = [
+                    'title' => 'Borrachos',
                     'name' => 'Borrachos',
                     'author' => 'Carlos Alcolea',
-                    'image_work' => '/images/works/Borrachos.jpg',
+                    'image_work' => '/images/works/Borracho.jpg',
                     'type' => 'Óleo, acrílico y ceras colores sobre papel',
                     'dimensions' => '99 x 69 cm',
                     'year' => '-',
@@ -137,11 +145,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Cajas',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Cajas':
                 $workData = [
+                    'title' => 'Cajas',
                     'name' => 'Cajas',
                     'author' => 'Ánxel Huete',
                     'image_work' => '/images/works/Cajas.jpg',
@@ -153,11 +162,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Camiño-Vermello',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Camiño-Vermello':
                 $workData = [
+                    'title' => 'Camiño Vermello',
                     'name' => 'Camiño Vermello',
                     'author' => 'Antón Pulido',
                     'image_work' => '/images/works/Camiño-Vermello.jpg',
@@ -169,11 +179,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Chatarra',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Chatarra':
                 $workData = [
+                    'title' => 'Chatarra',
                     'name' => 'Chatarra',
                     'author' => 'Aramburu',
                     'image_work' => '/images/works/Chatarra.jpg',
@@ -185,11 +196,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Ciclista',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Ciclista':
                 $workData = [
+                    'title' => 'Ciclista',
                     'name' => 'Ciclista',
                     'author' => 'Antón Patiño',
                     'image_work' => '/images/works/Ciclistas.jpg',
@@ -201,11 +213,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Composición-Abstracta1',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Composición-Abstracta1':
                 $workData = [
+                    'title' => 'Composición Abstracta',
                     'name' => 'Composición Abstracta',
                     'author' => 'Deside',
                     'image_work' => '/images/works/Composicion-Abstracta.jpg',
@@ -217,11 +230,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Composición-Abstracta2',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Composición-Abstracta2':
                 $workData = [
+                    'title' => 'Composición Abstracta',
                     'name' => 'Composición Abstracta',
                     'author' => 'Deside',
                     'image_work' => '/images/works/Composicion.jpg',
@@ -233,27 +247,29 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Contemplando-La-Batalla',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Contemplando-La-Batalla':
                 $workData = [
+                    'title' => 'Contemplando La Batalla',
                     'name' => 'Contemplando La Batalla',
                     'author' => 'Alfonso Costa',
                     'image_work' => '/images/works/Contemplando-La-Batalla.jpg',
                     'type' => 'Óleo/tela',
                     'dimensions' => '40 x 47 cm',
                     'year' => '1982',
-                    'button_link1' => '/works/Composicón-Abstracta2',
+                    'button_link1' => '/works/Composición-Abstracta2',
                     'button_text1' => 'ver anterior',
                     'button_link2' => '/works/Desafío',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Desafío':
                 $workData = [
+                    'title' => 'Desafío',
                     'name' => 'Desafío',
                     'author' => 'Ramón Conde',
                     'image_work' => '/images/works/Desafio.jpg',
@@ -265,11 +281,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Deconstrucción',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Deconstrucción':
                 $workData = [
+                    'title' => 'Deconstrucción',
                     'name' => 'Deconstrucción',
                     'author' => 'Alfonso Costa',
                     'image_work' => '/images/works/Deconstruccion.jpg',
@@ -281,11 +298,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Durmindo-Nas-Olas',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Durmindo-Nas-Olas':
                 $workData = [
+                    'title' => 'Durmindo Nas Olas',
                     'name' => 'Durmindo Nas Olas',
                     'author' => 'Antón Pulido',
                     'image_work' => '/images/works/Durmindo-Nas-Olas.png',
@@ -297,11 +315,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/El-Peregrino',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'El-Peregrino':
                 $workData = [
+                    'title' => 'El Peregrino',
                     'name' => 'El Peregrino',
                     'author' => 'Lugrís Vadillo',
                     'image_work' => '/images/works/El-Peregrino.jpg',
@@ -313,11 +332,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Entropía',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Entropía':
                 $workData = [
+                    'title' => 'Entropía',
                     'name' => 'Entropía',
                     'author' => 'Alfonso Costa',
                     'image_work' => '/images/works/Entropia.jpg',
@@ -329,12 +349,13 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Escrita-Das-Árbores',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Escrita-Das-Árbores':
                 $workData = [
-                    'name' => 'Escrita Nas Árbores',
+                    'title' => 'Escrita Das Árbores',
+                    'name' => 'Escrita Das Árbores',
                     'author' => 'Antón Patiño',
                     'image_work' => '/images/works/Escrita-Das-Arbores.jpg',
                     'type' => 'Mixta/tela',
@@ -345,11 +366,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Espazo-Ingrávido',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Espazo-Ingrávido':
                 $workData = [
+                    'title' => 'Espazo Ingrávido',
                     'name' => 'Espazo Ingrávido',
                     'author' => 'Antón Patiño',
                     'image_work' => '/images/works/Espazo.jpg',
@@ -361,11 +383,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Espello-De-Papel',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Espello-De-Papel':
                 $workData = [
+                    'title' => 'Espello De Papel',
                     'name' => 'Espello de Papel',
                     'author' => 'Alfonso Costa',
                     'image_work' => '/images/works/Espello-de-Papel.jpg',
@@ -377,11 +400,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/A-Mar-Espello',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'A-Mar-Espello':
                 $workData = [
+                    'title' => 'A Mar Espello',
                     'name' => 'A Mar Espello',
                     'author' => 'Antón Sobral',
                     'image_work' => '/images/works/Espello.jpg',
@@ -393,11 +417,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Familia-Americana',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Familia-Americana':
                 $workData = [
+                    'title' => 'Familia Americana',
                     'name' => 'Familia Americana',
                     'author' => 'Jorge Castillo',
                     'image_work' => '/images/works/Familia.jpg',
@@ -409,11 +434,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Felino',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Felino':
                 $workData = [
+                    'title' => 'Felino',
                     'name' => 'Felino',
                     'author' => 'Alfonso Costa',
                     'image_work' => '/images/works/Felino.jpg',
@@ -425,11 +451,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Fósiles',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Fósiles':
                 $workData = [
+                    'title' => 'Fósiles',
                     'name' => 'Fósiles',
                     'author' => 'Sandra Carvalho',
                     'image_work' => '/images/works/Fosiles.jpg',
@@ -441,11 +468,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Hibernáculo',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Hibernáculo':
                 $workData = [
+                    'title' => 'Hibernáculo',
                     'name' => 'Hibernáculo',
                     'author' => 'Jorge Barbi',
                     'image_work' => '/images/works/Hibernaculo.jpg',
@@ -457,11 +485,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Hierros',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Hierros':
                 $workData = [
+                    'title' => 'Hierros',
                     'name' => 'Hierros',
                     'author' => 'Aramburu',
                     'image_work' => '/images/works/Hierros.jpeg',
@@ -473,11 +502,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Historia',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Historia':
                 $workData = [
+                    'title' => 'Historia',
                     'name' => 'Historia',
                     'author' => 'Alfonso Costa',
                     'image_work' => '/images/works/Historia.jpg',
@@ -489,11 +519,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Interea',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Interea':
                 $workData = [
+                    'title' => 'Interea',
                     'name' => 'Interea',
                     'author' => 'Alfonso Costa',
                     'image_work' => '/images/works/Interea.jpg',
@@ -505,11 +536,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Islas-Cíes',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Islas-Cíes':
                 $workData = [
+                    'title' => 'Islas Cíes',
                     'name' => 'Islas Cíes',
                     'author' => 'Alfonso Costa',
                     'image_work' => '/images/works/Islas-Cies.jpg',
@@ -521,11 +553,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/La-Palmera',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'La-Palmera':
                 $workData = [
+                    'title' => 'La Palmera',
                     'name' => 'La Palmera',
                     'author' => 'Antón Patiño',
                     'image_work' => '/images/works/La-Palmera.png',
@@ -537,11 +570,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/La-Sagrada-Familia',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'La-Sagrada-Familia':
                 $workData = [
+                    'title' => 'La Sagrada Familia',
                     'name' => 'La Sagrada Familia',
                     'author' => 'Alfonso Costa',
                     'image_work' => '/images/works/La-Sagrada-Familia.jpg',
@@ -553,11 +587,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Levitando',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Levitando':
                 $workData = [
+                    'title' => 'Levitando',
                     'name' => 'Levitando',
                     'author' => 'Alfonso Costa',
                     'image_work' => '/images/works/Levitando.jpg',
@@ -569,11 +604,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Loco-Por-Los-Libros',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Loco-Por-Los-Libros':
                 $workData = [
+                    'title' => 'Loco Por Los Libros',
                     'name' => 'Loco Por Los Libros',
                     'author' => 'Ramón Conde',
                     'image_work' => '/images/works/Loco.jpg',
@@ -585,11 +621,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Maternidad1',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Maternidad1':
                 $workData = [
+                    'title' => 'Maternidad',
                     'name' => 'Maternidad',
                     'author' => 'Ramón Conde',
                     'image_work' => '/images/works/Maternidad.jpg',
@@ -601,11 +638,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Maternidad2',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Maternidad2':
                 $workData = [
+                    'title' => 'Maternidad',
                     'name' => 'Maternidad',
                     'author' => 'Ramón Conde',
                     'image_work' => '/images/works/Maternidade.jpg',
@@ -617,11 +655,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Mesa-Quebrada',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Mesa-Quebrada':
                 $workData = [
+                    'title' => 'Mesa Quebrada',
                     'name' => 'Mesa Quebrada',
                     'author' => 'Jorge Castillo',
                     'image_work' => '/images/works/Mesa.jpg',
@@ -633,11 +672,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Muller-III',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Muller-III':
                 $workData = [
+                    'title' => 'Muller III',
                     'name' => 'Muller III',
                     'author' => 'Antón Pulido',
                     'image_work' => '/images/works/Muller.jpg',
@@ -649,11 +689,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Nas-Marxes',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Nas-Marxes':
                 $workData = [
+                    'title' => 'Nas Marxes',
                     'name' => 'Nas Marxes',
                     'author' => 'Alfonso Costa',
                     'image_work' => '/images/works/Nas-Marxes.jpg',
@@ -665,11 +706,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/New-York',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'New-York':
                 $workData = [
+                    'title' => 'New York',
                     'name' => 'New York',
                     'author' => 'Jorge Castillo',
                     'image_work' => '/images/works/New-York.jpg',
@@ -681,11 +723,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Sin-Título1',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Sin-Título1':
                 $workData = [
+                    'title' => 'Sin Título',
                     'name' => 'Sin Título',
                     'author' => 'Jorge Barbi',
                     'image_work' => '/images/works/no.jpg',
@@ -697,11 +740,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Sin-Título2',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Sin-Título2':
                 $workData = [
+                    'title' => 'Sin Título',
                     'name' => 'Sin Título',
                     'author' => 'Carlos Alcolea',
                     'image_work' => '/images/works/notitulo.jpg',
@@ -713,11 +757,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Serie-Océano',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Serie-Océano':
                 $workData = [
+                    'title' => 'Serie Océano',
                     'name' => 'Serie Océano',
                     'author' => 'Antón Sobral',
                     'image_work' => '/images/works/oceano.png',
@@ -729,11 +774,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/PáginaN2',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'PáginaN2':
                 $workData = [
+                    'title' => 'Página Nº2',
                     'name' => 'Página Nº2',
                     'author' => 'Antonio Murado',
                     'image_work' => '/images/works/Pagina.jpg',
@@ -745,11 +791,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Paisaje-Arenoso',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Paisaje-Arenoso':
                 $workData = [
+                    'title' => 'Paisaje Arenoso',
                     'name' => 'Paisaje Arenoso',
                     'author' => 'Antonio Murado',
                     'image_work' => '/images/works/Paisaje-Arenoso.jpg',
@@ -761,11 +808,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Pájaros-Sobre-Hojas',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Pájaros-Sobre-Hojas':
                 $workData = [
+                    'title' => 'Pájaros Sobre Hojas',
                     'name' => 'Pájaros Sobre Hojas',
                     'author' => 'Jorge Castillo',
                     'image_work' => '/images/works/Pajaros.jpg',
@@ -777,11 +825,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Papelería-Compostela',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Papelería-Compostela':
                 $workData = [
+                    'title' => 'Papelería Compostela',
                     'name' => 'Papelería Compostela',
                     'author' => 'Mar Hernández',
                     'image_work' => '/images/works/Papeleria.jpg',
@@ -793,11 +842,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Papeles-Encontrados',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Papeles-Encontrados':
                 $workData = [
+                    'title' => 'Papeles Encontrados',
                     'name' => 'Papeles Encontrados',
                     'author' => 'Sandra Carvalho',
                     'image_work' => '/images/works/Papeles.jpg',
@@ -809,11 +859,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Perdices',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Perdices':
                 $workData = [
+                    'title' => 'Perdices',
                     'name' => 'Perdices',
                     'author' => 'Antón Lamazares',
                     'image_work' => '/images/works/Perdices.jpg',
@@ -825,11 +876,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Personajes-Y-Aves',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Personajes-Y-Aves':
                 $workData = [
+                    'title' => 'Personajes Y Aves',
                     'name' => 'Personajes Y Aves',
                     'author' => 'Jorge Castillo',
                     'image_work' => '/images/works/Personajes.jpg',
@@ -841,11 +893,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Personaxes-De-Millet',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Personaxes-De-Millet':
                 $workData = [
+                    'title' => 'Personaxes De Millet',
                     'name' => 'Personaxes De Millet',
                     'author' => 'Silveiro Rivas',
                     'image_work' => '/images/works/Personaxes-De-Millet.jpg',
@@ -857,14 +910,15 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Pesanervios',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Pesanervios':
                 $workData = [
+                    'title' => 'Pesanervios',
                     'name' => 'Pesanervios',
                     'author' => 'Antón Patiño',
-                    'image_work' => '/images/works/Pesaneervios.jpg',
+                    'image_work' => '/images/works/Pesanervios.jpg',
                     'type' => 'Pintura/tela',
                     'dimensions' => '146 x 114 cm',
                     'year' => '1999',
@@ -873,14 +927,15 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Paternidad',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Paternidad':
                 $workData = [
+                    'title' => 'Paternidad',
                     'name' => 'Paternidad',
                     'author' => 'Ramón Conde',
-                    'image_work' => '/images/works/Paternidad.jpg',
+                    'image_work' => '/images/works/Petenidad.jpg',
                     'type' => 'Bronce',
                     'dimensions' => '12 x 12 x 12 cm',
                     'year' => '2018',
@@ -889,11 +944,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Piscina-B',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Piscina-B':
                 $workData = [
+                    'title' => 'Piscina B',
                     'name' => 'Piscina B',
                     'author' => 'Carlos Alcolea',
                     'image_work' => '/images/works/PiscinaB.jpg',
@@ -905,11 +961,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Puesta-De-Sol',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Puesta-De-Sol':
                 $workData = [
+                    'title' => 'Puesta De Sol',
                     'name' => 'Puesta De Sol',
                     'author' => 'Antón Sobral',
                     'image_work' => '/images/works/Puesta.jpg',
@@ -921,27 +978,29 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Recorrido',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Recorrido':
                 $workData = [
+                    'title' => 'Recorrido',
                     'name' => 'Recorrido',
                     'author' => 'Antón Patiño',
                     'image_work' => '/images/works/Recorrido.jpg',
                     'type' => 'Pintura/tela',
                     'dimensions' => '70 x 70 cm',
                     'year' => '2017',
-                    'button_link1' => '/works/Puesta-de-Sol',
+                    'button_link1' => '/works/Puesta-De-Sol',
                     'button_text1' => 'ver anterior',
                     'button_link2' => '/works/Sello23',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Sello23':
                 $workData = [
+                    'title' => 'Sello 23',
                     'name' => 'Sello 23',
                     'author' => 'Antón Lamazares',
                     'image_work' => '/images/works/Sellos.jpg',
@@ -953,11 +1012,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Sin-Título3',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Sin-Título3':
                 $workData = [
+                    'title' => 'Sin Título',
                     'name' => 'Sin Título',
                     'author' => 'Silveiro Rivas',
                     'image_work' => '/images/works/Sin.jpg',
@@ -969,11 +1029,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Sin-Título4',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Sin-Título4':
                 $workData = [
+                    'title' => 'Sin Título',
                     'name' => 'Sin Título',
                     'author' => 'Jorge Barbi',
                     'image_work' => '/images/works/sin1.jpg',
@@ -985,11 +1046,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Sin-Título5',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Sin-Título5':
                 $workData = [
+                    'title' => 'Sin Título',
                     'name' => 'Sin Título',
                     'author' => 'Jorge Barbi',
                     'image_work' => '/images/works/sin2.jpg',
@@ -1001,11 +1063,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Sin-Título6',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Sin-Título6':
                 $workData = [
+                    'title' => 'Sin Título',
                     'name' => 'Sin Título',
                     'author' => 'Jorge Barbi',
                     'image_work' => '/images/works/sin3.jpg',
@@ -1017,14 +1080,15 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Sin-Título7',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Sin-Título7':
                 $workData = [
+                    'title' => 'Sin Título',
                     'name' => 'Sin Título',
                     'author' => 'Alfonso Costa',
-                    'image_work' => '/images/works/sintitulo.jpg',
+                    'image_work' => '/images/works/sintituo.jpg',
                     'type' => 'Óleo sobre lienzo',
                     'dimensions' => '82 x 65 cm',
                     'year' => '2005',
@@ -1033,11 +1097,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Soledad',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Soledad':
                 $workData = [
+                    'title' => 'Soledad',
                     'name' => 'Soledad',
                     'author' => 'Ramón Conde',
                     'image_work' => '/images/works/Soledad.jpg',
@@ -1049,11 +1114,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/ST',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'ST':
                 $workData = [
+                    'title' => 'S/T',
                     'name' => 'S/T',
                     'author' => 'Antón Patiño',
                     'image_work' => '/images/works/ST.jpg',
@@ -1065,11 +1131,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/st',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'st':
                 $workData = [
+                    'title' => 'S/T',
                     'name' => 'S/T',
                     'author' => 'Pilar Alonso',
                     'image_work' => '/images/works/st.png',
@@ -1081,11 +1148,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Sufrido',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Sufrido':
                 $workData = [
+                    'title' => 'Sufrido',
                     'name' => 'Sufrido',
                     'author' => 'Antón Lamazares',
                     'image_work' => '/images/works/Sufrido.jpg',
@@ -1097,11 +1165,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Suplementos',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Suplementos':
                 $workData = [
+                    'title' => 'Suplementos',
                     'name' => 'Suplementos',
                     'author' => 'Sandra Carvalho',
                     'image_work' => '/images/works/Suplemento.jpg',
@@ -1113,11 +1182,12 @@ class WorksController extends BaseController
                     'button_link2' => '/works/Venecia',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             case 'Venecia':
                 $workData = [
+                    'title' => 'Venecia',
                     'name' => 'Venecia',
                     'author' => 'Antón Sobral',
                     'image_work' => '/images/works/Venecia.jpg',
@@ -1129,7 +1199,7 @@ class WorksController extends BaseController
                     'button_link2' => '/works/A-Chambra-Branca',
                     'button_text2' => 'ver siguiente',
                     'button_link_works' => '/works',
-                    'button_text_works' => 'volver a obras',
+                    'button_text_works' => 'ir a obras',
                 ];
                 break;
             default:

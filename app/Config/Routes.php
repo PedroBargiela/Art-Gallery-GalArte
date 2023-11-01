@@ -23,3 +23,5 @@ $routes->group('works', function ($routes) {
     $routes->get('/', 'WorksController::index');
     $routes->get('(:segment)', 'WorksController::show/$1');
 });
+
+$routes->post('form/send', 'FormController::send');
