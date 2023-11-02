@@ -292,3 +292,13 @@ img {
     transform: translateY(-50%) rotate(90deg);
     color: black;
 }
+
+.footer {
+    overflow: hidden;
+}
+
+.footer-p {
+    font-size: 1em;
+    text-align: center;
+    margin-left: auto;
+}

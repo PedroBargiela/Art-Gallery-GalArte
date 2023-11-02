@@ -11,7 +11,7 @@
         <li><a href="/exhibitions">Exposiciones</a></li>
         <li><a href="/artists">Artistas</a></li>
         <li><a href="/works">Obras</a></li>
-        <li><a href="#">Dirección 4</a></li>
+        <li><a href="/contact">Contacto</a></li>
     </ul>
     <div class="close-menu interactive vertical-text" id="closeMenu">cerrar</div>
 </div>

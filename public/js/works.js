@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', (event)=> {
     const loadMoreButton  = document.createElement('button');
     loadMoreButton.innerText = 'cargar más';
     loadMoreButton.className = 'load-more-button';
-    document.body.appendChild(loadMoreButton);
+    document.querySelector('.pagination').appendChild(loadMoreButton);
 
     const arrow = document.createElement('div');
     arrow.className = 'down-arrow';

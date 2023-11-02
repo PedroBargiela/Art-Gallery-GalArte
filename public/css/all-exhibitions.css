@@ -109,9 +109,10 @@ img {
  *
  */
 /* standalone - .bttn-stretch */
-.bttn-default {
+.buttons .bttn-default {
     color: #fff;
 }
+.buttons,
 .bttn-primary,
 .bttn,
 .bttn-lg,
@@ -120,18 +121,19 @@ img {
 .bttn-xs {
     color: #1d89ff;
 }
-.bttn-warning {
+.buttons .bttn-warning {
     color: #feab3a;
 }
-.bttn-danger {
+.buttons .bttn-danger {
     color: #ff5964;
 }
-.bttn-success {
+.buttons .bttn-success {
     color: #28b78d;
 }
-.bttn-royal {
+.buttons .bttn-royal {
     color: #bd2df5;
 }
+.buttons,
 .bttn,
 .bttn-lg,
 .bttn-md,
@@ -146,27 +148,27 @@ img {
     cursor: pointer;
     position: relative;
 }
-.bttn-lg {
+.buttons .bttn-lg {
     padding: 8px 15px;
     font-size: 24px;
     font-family: inherit;
 }
-.bttn-md {
+.buttons .bttn-md {
     font-size: 20px;
     font-family: inherit;
     padding: 5px 12px;
 }
-.bttn-sm {
+.buttons .bttn-sm {
     padding: 4px 10px;
     font-size: 16px;
     font-family: inherit;
 }
-.bttn-xs {
+.buttons .bttn-xs {
     padding: 3px 8px;
     font-size: 12px;
     font-family: inherit;
 }
-.bttn-stretch {
+.buttons .bttn-stretch {
     margin: 0;
     padding: 0;
     border-width: 0;
@@ -187,8 +189,8 @@ img {
     -webkit-transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
     transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
 }
-.bttn-stretch:after,
-.bttn-stretch:before {
+.buttons .bttn-stretch:after,
+.buttons .bttn-stretch:before {
     position: absolute;
     left: 0;
     width: 100%;
@@ -201,75 +203,75 @@ img {
     -webkit-transform: scaleX(0);
             transform: scaleX(0);
 }
-.bttn-stretch:after {
+.buttons .bttn-stretch:after {
     top: 0;
 }
-.bttn-stretch:before {
+.buttons .bttn-stretch:before {
     bottom: 0;
 }
-.bttn-stretch:hover,
-.bttn-stretch:focus {
+.buttons .bttn-stretch:hover,
+.buttons .bttn-stretch:focus {
     letter-spacing: 2px;
     opacity: 0.9;
     -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
     transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
 }
-.bttn-stretch:hover:after,
-.bttn-stretch:focus:after {
+.buttons .bttn-stretch:hover:after,
+.buttons .bttn-stretch:focus:after {
     opacity: 1;
     -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
     transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
 }
-.bttn-stretch:hover:before,
-.bttn-stretch:focus:before {
+.buttons .bttn-stretch:hover:before,
+.buttons .bttn-stretch:focus:before {
     opacity: 1;
     -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
     transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
 }
-.bttn-stretch.bttn-xs {
+.buttons .bttn-stretch.bttn-xs {
     padding: 3px 8px;
     font-size: 12px;
     font-family: inherit;
 }
-.bttn-stretch.bttn-sm {
+.buttons .bttn-stretch.bttn-sm {
     padding: 4px 10px;
     font-size: 16px;
     font-family: inherit;
 }
-.bttn-stretch.bttn-md {
+.buttons .bttn-stretch.bttn-md {
     font-size: 2vw;
     font-family: inherit;
     padding: 5px 12px;
 }
-.bttn-stretch.bttn-lg {
+.buttons .bttn-stretch.bttn-lg {
     padding: 8px 15px;
     font-size: 24px;
     font-family: inherit;
 }
-.bttn-stretch.bttn-default {
+.buttons .bttn-stretch.bttn-default {
     color: #fff;
 }
-.bttn-stretch.bttn-primary {
+.buttons .bttn-stretch.bttn-primary {
     color: black;
 }
-.bttn-stretch.bttn-warning {
+.buttons .bttn-stretch.bttn-warning {
     color: #feab3a;
 }
-.bttn-stretch.bttn-danger {
+.buttons .bttn-stretch.bttn-danger {
     color: #ff5964;
 }
-.bttn-stretch.bttn-success {
+.buttons .bttn-stretch.bttn-success {
     color: #28b78d;
 }
-.bttn-stretch.bttn-royal {
+.buttons .bttn-stretch.bttn-royal {
     color: #bd2df5;
 }
 
-.fixed-button1 {
+.buttons .fixed-button1 {
     position: fixed;
     left: -4%;
     top: 70%;
@@ -277,10 +279,20 @@ img {
     color: black;
 }
 
-.fixed-button2 {
+.buttons .fixed-button2 {
     position: fixed;
     right: -2.3%;
     top: 70%;
     transform: translateY(-50%) rotate(90deg);
     color: black;
+}
+
+.footer {
+    overflow: hidden;
+}
+
+.footer-p {
+    font-size: 1em;
+    text-align: center;
+    margin-left: auto;
 }

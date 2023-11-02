@@ -25,3 +25,5 @@ $routes->group('works', function ($routes) {
 });
 
 $routes->post('form/send', 'FormController::send');
+
+$routes->get('/contact', 'ContactController::index');

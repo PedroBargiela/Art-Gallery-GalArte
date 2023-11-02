@@ -41,13 +41,17 @@
                 <img src="<?= esc($image3_2) ?>" alt="Imagen 2 del bloque 3">
             </div>
         </div>
-        <a href="<?= esc($button_link1) ?>" class="fixed-button1">
-            <button class="bttn-stretch bttn-md bttn-primary"><?= esc($button_text1) ?></button>
-        </a>
-        <a href="<?= esc($button_link2) ?>" class="fixed-button2">
-            <button class="bttn-stretch bttn-md bttn-primary"><?= esc($button_text2) ?></button>
+        <footer>
+            <?= view('partials/footer.php') ?>
+        </footer>
+        <div class="buttons">
+            <a href="<?= esc($button_link1) ?>" class="fixed-button1">
+                <button class="bttn-stretch bttn-md bttn-primary"><?= esc($button_text1) ?></button>
+            </a>
+            <a href="<?= esc($button_link2) ?>" class="fixed-button2">
+                <button class="bttn-stretch bttn-md bttn-primary"><?= esc($button_text2) ?></button>
+        </div>
     </div>
-
 
 
     <script type="module" src="/js/common.js"></script>

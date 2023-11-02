@@ -36,6 +36,12 @@ p {
     text-align: center;
 }
 
+hr {
+    border: none;
+    border-top: 1px solid black;
+    width: 70%;
+}
+
 .part_works {
     display: flex;
     flex-direction: column;
@@ -182,7 +188,7 @@ img {
 
 .enter:hover {
     background-color: rgb(0, 0, 0);
-    color: white;
+    color: rgb(231, 225, 216);
 }
 
 .container {
@@ -378,4 +384,14 @@ img {
     top: 40%;
     transform: translateY(-50%) rotate(90deg);
     color: black;
+}
+
+.footer {
+    overflow: hidden;
+}
+
+.footer-p {
+    font-size: 1em;
+    text-align: center;
+    margin-left: auto;
 }

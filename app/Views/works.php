@@ -818,12 +818,15 @@
                 </div>
             </a>
         </div>
+
     </div>
 
     <div class="pagination">
     </div>
 
-
+    <footer>
+        <?= view('partials/footer.php') ?>
+    </footer>
 
     <script type="module" src="/js/works.js"></script>
     <script type="module" src="/js/common.js"></script>

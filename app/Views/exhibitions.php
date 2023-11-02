@@ -67,6 +67,10 @@
         </div>
     </div>
 
+    <footer>
+        <?= view('partials/footer.php') ?>
+    </footer>
+
     <div id="custom-cursor"></div>
     <script type="module" src="/js/common.js"></script>
 </body>
