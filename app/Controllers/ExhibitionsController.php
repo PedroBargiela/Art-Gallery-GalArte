@@ -26,8 +26,8 @@ class ExhibitionsController extends BaseController
                     'paragraph3' => 'En este sentido, la obra de Costa se convierte en un diálogo constante entre el pasado y el presente, entre la luz y la sombra, entre la forma y la transformación. Cada trazo, cada mancha, cada gesto es un testimonio de este diálogo, una huella de ese instante irreparable del paso del tiempo. Pero también es una afirmación de la resistencia, de la capacidad de la vida para reinventarse a sí misma en medio del caos y la incertidumbre. Como si Costa estuviera diciendo: “Sí, el tiempo pasa, las formas cambian, pero siempre hay algo que permanece, algo que resiste”. Y ese algo es quizás lo que Manuel Rivas llamó “la autenticidad y fe creativa” de este pintor. Es esa chispa de vida que se niega a ser apagada, esa luz que brilla incluso en las sombras más profundas. Y es precisamente esta luz la que Costa captura en sus obras, esa luz que es a la vez cicatriz y memoria, pregunta y respuesta.',
                     'image3_1' => '/images/exhibitions/interea/LaSagradaFamilia.jpg',
                     'image3_2' => '/images/exhibitions/interea/Pasaxe.jpg',
-                    'button_link1' => '/exhibitions',
-                    'button_text1' => 'volver a exposiciones',
+                    'button_link1' => '/exhibitions/El-Instrumento-De-La-Sombra',
+                    'button_text1' => 'ver anterior',
                     'button_link2' => '/exhibitions/Latexo-Do-Labirinto',
                     'button_text2' => 'ver siguiente',
                 ];
@@ -108,8 +108,8 @@ class ExhibitionsController extends BaseController
                     'image3_2' => '/images/exhibitions/sombra/1829.jpg',
                     'button_link1' => '/exhibitions/Delirios',
                     'button_text1' => 'ver anterior',
-                    'button_link2' => '/exhibitions',
-                    'button_text2' => 'volver a exposiciones',
+                    'button_link2' => '/exhibitions/Interea',
+                    'button_text2' => 'ver siguiente',
                 ];
                 break;
             default:

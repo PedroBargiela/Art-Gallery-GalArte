@@ -2,7 +2,7 @@
     <img src="/assets/LogoGalArte1.png" alt="Logo">
 </a>
 
-<div class="menu-toggle interactive vertical-text" id="menuToggle">menú</div>
+<div class="menu-toggle interactive vertical-text" id="menuToggle"><strong>menú</strong></div>
 <div class="inactive" id="menu">
     <a href="/" class="logo" id="logo">
         <img src="/assets/LogoGalArte1.png" alt="Logo">

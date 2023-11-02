@@ -1,15 +1,18 @@
 * {
     overflow: auto;
+    cursor: none !important;
 }
 
 body {
     background-color: rgb(247, 243, 239);
+    overflow: hidden;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 4%;
+    overflow:hidden ;
 }
 
 .column {

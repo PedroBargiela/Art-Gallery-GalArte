@@ -46,10 +46,10 @@
         </footer>
         <div class="buttons">
             <a href="<?= esc($button_link1) ?>" class="fixed-button1">
-                <button class="bttn-stretch bttn-md bttn-primary"><?= esc($button_text1) ?></button>
+                <button class="bttn-stretch bttn-md bttn-primary"><strong><?= esc($button_text1) ?></strong></button>
             </a>
             <a href="<?= esc($button_link2) ?>" class="fixed-button2">
-                <button class="bttn-stretch bttn-md bttn-primary"><?= esc($button_text2) ?></button>
+                <button class="bttn-stretch bttn-md bttn-primary"><strong><?= esc($button_text2) ?></strong></button>
         </div>
     </div>
 

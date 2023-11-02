@@ -25,13 +25,13 @@
 
 
         <a href="<?= esc($button_link1) ?>" class="fixed-button1">
-            <button class="bttn-stretch bttn-md bttn-primary"><?= esc($button_text1) ?></button>
+            <button class="bttn-stretch bttn-md bttn-primary"><strong><?= esc($button_text1) ?></strong></button>
         </a>
         <a href="<?= esc($button_link2) ?>" class="fixed-button2">
-            <button class="bttn-stretch bttn-md bttn-primary"><?= esc($button_text2) ?></button>
+            <button class="bttn-stretch bttn-md bttn-primary"><strong><?= esc($button_text2) ?></strong></button>
         </a>
         <a href="<?= esc($button_link_works) ?>" class="fixed-button-works">
-            <button class="bttn-stretch bttn-md bttn-primary"><?= esc($button_text_works) ?></button>
+            <button class="bttn-stretch bttn-md bttn-primary"><strong><?= esc($button_text_works) ?></strong></button>
         </a>
 
         <p>
@@ -52,7 +52,7 @@
 
                 <div class="inputBox">
                     <input type="text" name="work-name" required="required">
-                    <span>Nombre de la Obra</span>
+                    <span>Nombre de la Obra y Artista</span>
                 </div>
 
                 <div class="inputBox">
@@ -60,10 +60,10 @@
                     <span>Email</span>
                 </div>
 
-                <div class="inputBox">
+                <!--<div class="inputBox">
                     <input type="direction" name="direction" required="required">
                     <span>Dirección de Envío</span>
-                </div>
+                </div>-->
 
                 <div class="inputBox">
                     <textarea name="message" required="required"></textarea>

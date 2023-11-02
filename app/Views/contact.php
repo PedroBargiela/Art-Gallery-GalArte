@@ -28,7 +28,7 @@
             </div>
             <div class="block">
                 <h4>
-                    Ponte en contacto
+                    Contacto
                 </h4>
                 <p>
                     (+XX) XXX XXX XXX

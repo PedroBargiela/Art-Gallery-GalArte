@@ -365,7 +365,7 @@ img {
 .fixed-button1 {
     position: fixed;
     left: -4%;
-    top: 80%;
+    top: 75%;
     transform: translateY(-50%) rotate(-90deg);
     color: black;
 }
@@ -373,7 +373,7 @@ img {
 .fixed-button2 {
     position: fixed;
     right: -2.3%;
-    top: 80%;
+    top: 75%;
     transform: translateY(-50%) rotate(90deg);
     color: black;
 }
@@ -381,7 +381,7 @@ img {
 .fixed-button-works {
     position: fixed;
     right: -0.5%;
-    top: 40%;
+    top: 38%;
     transform: translateY(-50%) rotate(90deg);
     color: black;
 }
