@@ -18,7 +18,6 @@
     <div class="part_exhibitions">
         <h1><?= esc($title) ?></h1>
         <img class="title-img" src="<?= esc($image_title) ?>" alt="Imagen referente al título">
-        <hr>
         <p><?= esc($paragraph1) ?></p>
         <div class="row">
             <div class="col1">

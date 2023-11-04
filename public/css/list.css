@@ -220,3 +220,40 @@ h1 {
     top: 80%;
     transform: translateY(-50%) rotate(-90deg);
 }
+
+@media (max-width: 600px) {
+    .artist-grid {
+        gap: 0;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    h1 {
+        margin-top: 28%;
+        text-align: center;
+        font-size: 10vw;
+    }
+    .artist-item {
+        height: 70vh;
+        margin-bottom: 25%;
+        position: relative;
+        overflow-x: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .artist-item img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .artist-item h2 {
+        position: absolute;
+        bottom: -2%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+    .fixed-button {
+        display: none;
+    }
+}

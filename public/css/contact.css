@@ -163,3 +163,58 @@ body {
     top: 18%;
     right: 8%;
 }
+
+@media (max-width: 600px) {
+    body {
+        overflow: auto;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        overflow: auto;
+    }
+    .column {
+        margin-top: 30%;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 0;
+        text-align: center;
+    }
+    .column h4 {
+        font-size: 8vw;
+    }
+    .column p {
+        font-size: 6vw;
+    }
+    .social-media {
+        position: static;
+        order: 2;
+        width: 100%;
+        padding: 0;
+    }
+    .icons {
+        position: static;
+        margin-top: 40%;
+        margin-bottom: -30%;
+        margin-left: 50%;
+        flex-direction: column;
+    }
+    .icons li {
+        display: inline-block;
+        margin-top: -15%;
+        margin-bottom: -3%;
+    }
+    .icons li a{
+        font-size: 11vw;
+    }
+    .icons li a span {
+        display: none;
+    }
+    .icons li {
+        margin-right: 0;
+    }
+    .map {
+        display: none;
+    }
+
+}

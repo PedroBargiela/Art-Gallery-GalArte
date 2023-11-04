@@ -17,7 +17,6 @@
         <h1><?= esc($name) ?></h1>
         <h2><?= esc($origin) ?></h2>
         <img class="title-img" src="<?= esc($image_title) ?>" alt="Imagen referente al nombre">
-        <hr>
         <p><?= esc($paragraph1) ?></p>
         <div class="row">
             <div class="col1">

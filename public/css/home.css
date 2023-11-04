@@ -83,6 +83,7 @@ body.index {
 .slide-content a {
     color: white;
     text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
 .slide-title {
@@ -180,3 +181,31 @@ body.index {
 /*.no-scroll {
     overflow: hidden;
 }*/
+
+@media (max-width: 600px) {
+    .slide-title {
+        font-size: 14vw;
+    }
+    .slide-description {
+        font-size: 9vw;
+    }
+    .logo img {
+        width: 26vw;
+    }
+    .menu-toggle, .close-menu {
+        font-size: 8vw;
+        top: 3%;
+        right: -18%;
+    }
+    .menu-items{
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 80%;
+    }
+    .menu-items a {
+        font-size: 12vw;
+    }
+}

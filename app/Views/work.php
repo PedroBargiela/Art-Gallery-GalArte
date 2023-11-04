@@ -37,7 +37,7 @@
         <p>
             Si estás interesado en obtener esta obra
             <br>o quieres obtener una información mas detalla de ella,
-            <br>rellena este formularios y te contactaremos proporcionándote la información.
+            <br>rellena este formularios y te contactaremos facilitándote la información.
         </p>
     </div>
     <form action="/form/send" method="post">

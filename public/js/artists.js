@@ -32,6 +32,10 @@ window.onload = function() {
             depth: 200,
             modifier: 1,
             slideShadows : false,
+        },
+        navigation: {
+            newtEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
         }
     });
 
@@ -60,6 +64,5 @@ window.onload = function() {
 
         swiper.appendSlide(slide);
     });
-    
 
 }

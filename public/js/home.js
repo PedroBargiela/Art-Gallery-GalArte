@@ -102,5 +102,12 @@ window.onload = function() {
         closeMenu.style.display = 'none';// Oculta el botón de cerrar cuando se cierra el menú
     });
 
+    var artistLink = document.querySelector('.menu-items a[href="/artists"]');
+
+    //COmprueba si el ancho de la ventana del navegador es de 600px o menos
+    if (window.innerWidth <= 600){
+        //Cambia el enlace para dispositivos móviles
+        artistLink.href = "/artists/list";
+    }
 }
 

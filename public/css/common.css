@@ -149,3 +149,28 @@ body.index {
     text-decoration: none;
     margin: 0 15px;
 }
+
+@media (max-width: 600px) {
+    .logo img {
+        width: 20vw;
+    }
+    .menu-toggle, .close-menu {
+        font-size: 8vw;
+        top: 3%;
+        right: -19%;
+    }
+    .menu-items{
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 80%;
+    }
+    .menu-items a {
+        font-size: 12vw;
+    }
+    .footer-p {
+        font-size: 3.5vw;
+    }
+}

@@ -21,50 +21,50 @@
     <h2>hasta xx/xx/xxxx</h2>
     <div class="content-container">
         <div class="exhibition">
-            <img src="/images/home/Interea.jpg" alt="Interea Exp.">
-            <div class="info right">
-                <a href="/exhibitions/Interea">
+            <a href="/exhibitions/Interea">
+                <img src="/images/home/Interea.jpg" alt="Interea Exp.">
+                <div class="info right">
                     <h2>Interea</h2>
-                </a>
-                <p>Exposición de Alfonso Costa</p>
-            </div>
+            </a>
+            <p>Exposición de Alfonso Costa</p>
         </div>
-        <div class="exhibition reverse">
+    </div>
+    <div class="exhibition reverse">
+        <a href="/exhibitions/Latexo-Do-Labirinto">
             <img src="/images/home/Rostro.jpg" alt="Latexo Exp.">
             <div class="info">
-                <a href="/exhibitions/Latexo-Do-Labirinto">
-                    <h2>Latexo Do Labirinto</h2>
-                </a>
-                <p>Exposición de Antón Patiño</p>
-            </div>
+                <h2>Latexo Do Labirinto</h2>
+        </a>
+        <p>Exposición de Antón Patiño</p>
+    </div>
+    </div>
+    <div class="exhibition">
+        <img src="/images/home/Casa.jpg" alt="Mar Hernández Exp.">
+        <div class="info right">
+            <a href="/exhibitions/A-Derradeira">
+                <h2>A Derradeira</h2>
+            </a>
+            <p>Exposición de Mar Hernández</p>
         </div>
-        <div class="exhibition">
-            <img src="/images/home/Casa.jpg" alt="Mar Hernández Exp.">
-            <div class="info right">
-                <a href="/exhibitions/A-Derradeira">
-                    <h2>A Derradeira</h2>
-                </a>
-                <p>Exposición de Mar Hernández</p>
-            </div>
-        </div>
-        <div class="exhibition reverse">
+    </div>
+    <div class="exhibition reverse">
+        <a href="/exhibitions/Delirios">
             <img src="/images/home/Nube.jpg" alt="Ramón Conde Exp.">
             <div class="info">
-                <a href="/exhibitions/Delirios">
-                    <h2>Delirios</h2>
-                </a>
-                <p>Exposición de Ramón Conde</p>
-            </div>
-        </div>
-        <div class="exhibition">
+                <h2>Delirios</h2>
+        </a>
+        <p>Exposición de Ramón Conde</p>
+    </div>
+    </div>
+    <div class="exhibition">
+        <a href="/exhibitions/El-Instrumento-De-La-Sombra">
             <img src="/images/home/Serie.jpg" alt="Sandra Carvalho Exp.">
             <div class="info right">
-                <a href="/exhibitions/El-Instrumento-De-La-Sombra">
-                    <h2>EL INSTRUMENTO DE LA SOMBRA</h2>
-                </a>
-                <p>Exposición de Sandra Carvalho</p>
-            </div>
-        </div>
+                <h2>EL INSTRUMENTO DE LA SOMBRA</h2>
+        </a>
+        <p>Exposición de Sandra Carvalho</p>
+    </div>
+    </div>
     </div>
 
     <footer>
