@@ -6,5 +6,3 @@ Este proyecto consiste en la creación de una página web de una galería de art
 ## Tecnologías Usadas
 CodeIgniter 4
 
-## Demo
-https://pedrobargiela.github.io/Art-Gallery-GalArte
