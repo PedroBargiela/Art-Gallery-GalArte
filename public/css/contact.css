@@ -8,6 +8,77 @@ body {
     overflow: hidden;
 }
 
+.intro {
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(93, 86, 86);
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-header {
+    /*position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    color: white;
+    text-align: center;
+}
+
+.text {
+    position: relative;
+    display: inline-block;
+    bottom: -20%;
+    opacity: 0;
+    font-size: 6vw;
+}
+
+.text.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+
+.text.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    font-size: 4vw;
+}
+
+.title-right {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(50%, -50%)rotate(90deg);
+    font-size: 4vw;
+}
+
+.line {
+    height: 0;
+    width: 1.5px;
+    background-color: white;
+    margin: 0 20px;
+    transition: height 2s ease-in-out;
+}
+
+.line.active {
+    height: 300px;
+}
+
 .container {
     display: flex;
     justify-content: space-between;

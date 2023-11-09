@@ -131,7 +131,13 @@ body.index {
     color: white;
     text-decoration: none;
     display: block;
+    transition: transform 0.3s ease;
 }
+
+.menu-items a:hover {
+    transform: scale(0.9);
+}
+
 /*.no-scroll {
     overflow: hidden;
 }*/

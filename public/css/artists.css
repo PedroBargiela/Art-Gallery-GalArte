@@ -6,6 +6,50 @@ body, html {
     background-color: rgb(247, 243, 239);
 }
 
+/*Splash Screen*/
+.intro {
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(93, 86, 86);
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-header {
+    /*position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    color: white;
+    text-align: center;
+}
+
+.text {
+    position: relative;
+    display: inline-block;
+    bottom: -20%;
+    opacity: 0;
+    font-size: 6vw;
+}
+
+.text.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+
+.text.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+
 .title {
     position: absolute;
     top: 50%;
@@ -20,6 +64,18 @@ body, html {
     right: 20%;
     transform: translate(50%, -50%)rotate(90deg);
     font-size: 4vw;
+}
+
+.line {
+    height: 0;
+    width: 1.5px;
+    background-color: white;
+    margin: 0 20px;
+    transition: height 2s ease-in-out;
+}
+
+.line.active {
+    height: 300px;
 }
 
 /*.title {
@@ -82,7 +138,7 @@ body, html {
     text-decoration: none;
     color: black;
     position: relative;
-    z-index: 1000;
+    z-index: 999;
 }
 
 .artist-list:hover::after {
@@ -103,31 +159,4 @@ body, html {
 .artist-list::before {
     content: "\2192"; /* Código de carácter Unicode para la flecha izquierda */
     margin-right: 5px;
-}
-
-@media (max-width: 600px) {
-    .title, .title-right {
-        font-size: 10vw;
-        left: 10%;
-        right: 10%;
-    }
-    .artist-list-container {
-        font-size: 5vw;
-    }
-    .swiper {
-        height: 100vh;
-    }
-    .swiper-slide img {
-        width: 214%;
-        height: auto;
-        max-height: 100vh;
-    }
-    .swiper-slide h2 {
-        position: absolute;
-        bottom: 0;
-        left: 5%;
-        width: 90%;
-        text-align: center;
-        font-size: 4vw;
-    }
 }

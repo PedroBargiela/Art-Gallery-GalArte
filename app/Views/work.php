@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= esc($title) ?></title>
-
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('/assets/favicon.ico'); ?>">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/all-works.css">
 </head>
@@ -40,6 +41,7 @@
             <br>rellena este formularios y te contactaremos facilitándote la información.
         </p>
     </div>
+    <!-- Formulario sacado de: https://uiverse.io/JkHuger/afraid-frog-82-->
     <form action="/form/send" method="post">
         <div class="container">
             <div class="card">
@@ -60,11 +62,6 @@
                     <span>Email</span>
                 </div>
 
-                <!--<div class="inputBox">
-                    <input type="direction" name="direction" required="required">
-                    <span>Dirección de Envío</span>
-                </div>-->
-
                 <div class="inputBox">
                     <textarea name="message" required="required"></textarea>
                     <span>Escribe tu Mensaje</span>
@@ -82,6 +79,30 @@
 
     <div id="custom-cursor"></div>
     <script type="module" src="/js/common.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("form").on("submit", function(event) { // Agrega un controlador de eventos para el evento "submit" en todos los formularios de la página.
+                event.preventDefault(); // Previene la acción predeterminada de envío del formulario, que sería una recarga de la página.
+
+                // Inicia una solicitud AJAX cuando se envía el formulario
+                $.ajax({
+                    url: '/form/send',
+                    type: 'post',
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        alert(response);
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
+
 </body>
 
 </html>

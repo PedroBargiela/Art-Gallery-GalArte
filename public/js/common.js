@@ -16,7 +16,7 @@ document.addEventListener('mousemove', (e) => {
 });
 
 // Añade la clase 'hover' al cursor personalizado cuando el ratón pasa sobre un elemento interactivo
-document.querySelectorAll('a, button, input, textarea, select, .interactive, img').forEach(elem => {
+document.querySelectorAll('a, a img, button, input, textarea, select, .interactive').forEach(elem => {
     elem.addEventListener('mouseover', () => {
         customCursor.classList.add('hover');
     });

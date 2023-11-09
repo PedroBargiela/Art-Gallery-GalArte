@@ -5,11 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Artistas</title>
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('/assets/favicon.ico'); ?>">
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/list.css">
 </head>
 
 <body>
+    <div class="intro mobile-only">
+
+        <h1 class="intro-header">
+            <span class="text">A</span><span class="text">R</span><span class="text">T</span><span class="text">I</span><span class="text">S</span><span class="text">T</span><span class="text">A</span><span class="text">S</span>
+        </h1>
+
+    </div>
     <header>
         <?= view('partials/header.php') ?>
     </header>
@@ -86,6 +94,7 @@
 
     <div id="custom-cursor"></div>
     <script type="module" src="/js/common.js"></script>
+    <script type="module" src="/js/list.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,41 @@
+let intro = document.querySelector('.intro');
+let logo = document.querySelector('.intro-header');
+let logoSpan = document.querySelectorAll('.text');
+let content = document.querySelector('.content');
+let lines = document.querySelectorAll('.line');
+
+window.addEventListener('load', () => {
+    setTimeout(() => {// 1. Animación de las letras del título
+        logoSpan.forEach((span, idx) => {
+            setTimeout(() => {
+                span.classList.add('active');
+            }, Math.random() * 1000)// Cada letra se activa con un retraso aleatorio
+        });
+
+        // 2. Desvanecimiento de las letras del título
+        setTimeout(() => {
+            logoSpan.forEach((span, idx) => {
+                setTimeout(() => {
+                    span.classList.remove('active');
+                    span.classList.add('fade');
+                }, (idx + 1) * 50)// Cada letra se desvanece con un retraso
+            });
+        }, 1500);
+
+        // 3. Animación de líneas en la sección de introducción
+        setTimeout(() => {
+            lines.forEach(line => line.classList.add('active'))// Activa las líneas
+        }, 300);
+
+        // 4. Oculta la sección de introducción y muestra el contenido principal
+        setTimeout(() => {
+            intro.style.top = '-100vh';
+            content.classList.add('show');
+        }, 1700);
+    });
+
+});
+
 window.onload = function() {
     const images = [
         {src: '/images/artists/AlfonsoCosta/Sin-Titulo.jpg', title:'ALFONSO COSTA', link:'/artists/Alfonso-Costa'},
@@ -12,6 +50,7 @@ window.onload = function() {
         {src: '/images/artists/JorgeCastillo/Composicion.jpg', title: 'JORGE CASTILLO', link:'/artists/Jorge-Castillo'},
     ]
 
+    // Configuración del carrusel (Swiper)
     var swiper = new Swiper('.swiper', {
         effect: 'coverflow',
         loop: false,
@@ -32,15 +71,12 @@ window.onload = function() {
             depth: 200,
             modifier: 1,
             slideShadows : false,
-        },
-        navigation: {
-            newtEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
         }
     });
 
     var customCursor = document.getElementById('custom-cursor');
 
+    // Recorre el arreglo de imágenes y crea diapositivas para el carrusel
     images.forEach(function(image){
         var slide = document.createElement('div');
         slide.className = 'swiper-slide';

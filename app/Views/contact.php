@@ -5,12 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('/assets/favicon.ico'); ?>">
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <div class="intro">
+        <div class="line"></div>
+        <h1 class="intro-header">
+            <span class="text">C</span><span class="text">O</span><span class="text">N</span><span class="text">T</span><span class="text">A</span><span class="text">C</span><span class="text">T</span><span class="text">O</span>
+        </h1>
+        <div class="line"></div>
+    </div>
     <header>
         <?= view('partials/header.php') ?>
     </header>
@@ -81,6 +89,7 @@
             </ul>
         </div>
         <div class="map">
+            <!-- Mapa de Google Maps incrustado -->
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.7572255636614!2d-8.544250325170834!3d42.87796808766531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2efe46e68c3e13%3A0x6ef2be9ef4c7a84d!2sGaleria%20de%20Arte%20Luisa%20Pita!5e0!3m2!1ses!2ses!4v1698919375536!5m2!1ses!2ses" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
@@ -91,6 +100,7 @@
 
     <div id="custom-cursor"></div>
     <script type="module" src="/js/common.js"></script>
+    <script type="module" src="/js/contact.js"></script>
 </body>
 
 </html>

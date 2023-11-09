@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= esc($title) ?></title>
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('/assets/favicon.ico'); ?>">
     <link rel="stylesheet" href="/css/all-artists.css">
     <link rel="stylesheet" href="/css/common.css">
+
 </head>
 
 <body>
@@ -39,6 +41,7 @@
                 <img src="<?= esc($image3_2) ?>" alt="Imagen 2 del bloque 3">
             </div>
         </div>
+        <!--- Botones sacados de https://bttn.surge.sh/ -->
         <a href="<?= esc($button_link1) ?>" class="fixed-button1">
             <button class="bttn-stretch bttn-md bttn-primary"><strong><?= esc($button_text1) ?></strong></button>
         </a>

@@ -1,3 +1,53 @@
+let intro = document.querySelector('.intro');
+let logo = document.querySelector('.intro-header');
+let logoSpan = document.querySelectorAll('.text');
+let loader = document.querySelector('.loader');
+let swiperContainer = document.querySelector('.swiper-container');
+
+//El evento se inicia cuando carga la página
+window.addEventListener('load', () => {
+    // Anima las letras individuales del logo
+    // Esto se hace mediante un bucle que itera a través de las letras (span) y aplica una animación de entrada
+    // Cada letra se anima con un retraso incremental para crear un efecto secuencial
+    setTimeout(() => {
+        logoSpan.forEach((span, idx) => {
+            setTimeout(() => {
+                span.classList.add('active');
+            }, (idx + 1) * 300)
+        });
+
+        // Después de un cierto tiempo (3000 milisegundos o 3 segundos), se quita la clase 'active' y se agrega la clase 'fade' a las letras
+        // Esto crea un efecto de desvanecimiento de las letras
+        setTimeout(() => {
+            logoSpan.forEach((span, idx) => {
+                setTimeout(() => {
+                    span.classList.remove('active');
+                    span.classList.add('fade');
+                }, (idx + 1) * 50)
+            });
+        }, 3000);
+
+        // Luego, después de 800 milisegundos o 0.8 segundos, se agrega la clase 'active' al elemento de carga (loader)
+        // Esto muestra el loader o indicador de carga en la página
+        setTimeout(() => {
+            loader.classList.add('active');
+        }, 800);
+
+        setTimeout(() => {
+            loader.classList.remove('active');
+            loader.classList.add('fade');
+        },3000);
+
+        // Finalmente, después de 3300 milisegundos o 3.3 segundos, se realiza una transición para ocultar la sección de introducción (intro)
+        // y mostrar el contenedor del carrusel (swiperContainer)
+        setTimeout(() => {
+            intro.style.top = '-100vh';
+            swiperContainer.classList.add('show');
+        }, 3300);
+    });
+
+});
+
 const images = [
     {src: 'Interea.jpg', title: 'INTEREA', description: 'Alfonso Costa', link: '/exhibitions/Interea'},
     {src: 'Rostro2.jpg', title: 'LATEXO DO LABIRINTO', description: 'Antón Patiño', link: '/exhibitions/Latexo-Do-Labirinto'},
@@ -7,7 +57,7 @@ const images = [
 ];
 
 let currentSlideIndex = 0;
-
+//Inicializa el carrusel de la librería Swiper
 window.onload = function() {
     const swiper = new Swiper('.swiper-container', {
         direction: 'vertical',

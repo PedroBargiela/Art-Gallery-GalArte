@@ -5,11 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obras</title>
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('/assets/favicon.ico'); ?>">
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/works.css">
 </head>
 
 <body>
+    <div class="intro">
+        <div class="line"></div>
+        <h1 class="intro-header">
+            <span class="text">O</span><span class="text">B</span><span class="text">R</span><span class="text">A</span><span class="text">S</span>
+        </h1>
+        <div class="line"></div>
+    </div>
     <header>
         <?= view('partials/header.php') ?>
     </header>
