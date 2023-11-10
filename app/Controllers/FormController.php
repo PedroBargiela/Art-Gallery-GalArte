@@ -17,9 +17,9 @@ class FormController extends Controller
         $message = $this->request->getPost('message');
 
         $mail = \Config\Services::email();
-        $mail->setFrom(getenv('email.SMTPUser'), 'Correo');
+        $mail->setFrom(getenv('MAILTRAP_USER'), 'Formulario de Solicitud de Información');
         $mail->setReplyTo($email, $name);
-        $mail->setTo(getenv('email.SMTPUser'));
+        $mail->setTo(getenv('MAILTRAP_USER'));
         $mail->setSubject('Nuevo formulario de solicitud de información');
         $mail->setMessage("Nombre: {$name}\nNombre de la Obra y Artista: {$workName}\nEmail: {$email}\nMensaje: {$message}");
 

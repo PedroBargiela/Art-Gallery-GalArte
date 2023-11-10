@@ -32,8 +32,8 @@ body.index {
 }
 
 #custom-cursor.hover {
-    width: 55px;
-    height: 55px;
+    width: 40px;
+    height: 40px;
 }
 
 #custom-cursor.explode {
@@ -42,7 +42,7 @@ body.index {
 
 @keyframes explode {
     50%{
-        transform: translate(-50%, -50%) scale(3);
+        transform: translate(-50%, -50%) scale(2);
         opacity: 1;
     }
     100% {

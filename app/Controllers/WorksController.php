@@ -36,7 +36,7 @@ class WorksController extends BaseController
                     'author' => 'Nacho Costa',
                     'image_work' => '/images/works/A-Ria.jpg',
                     'type' => 'Acrílico sobre lienzo',
-                    'dimensions' => '116 x 89',
+                    'dimensions' => '116 x 89 cm',
                     'year' => '1999',
                     'button_link1' => '/works/A-Chambra-Branca',
                     'button_text1' => 'ver anterior',

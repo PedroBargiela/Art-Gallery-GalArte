@@ -651,7 +651,7 @@
             </a>
         </div>
         <div class="card" data-artist="Ramón Conde" data-type="Escultura">
-            <a href="/works/Petenidad">
+            <a href="/works/Peternidad">
                 <div class="artwork">
                     <img src="/images/works/Petenidad.jpg" alt="Paternidad">
                 </div>

@@ -47,13 +47,13 @@
     </div>
     </div>
     <div class="exhibition">
-        <img src="/images/home/Casa.jpg" alt="Mar Hernández Exp.">
-        <div class="info right">
-            <a href="/exhibitions/A-Derradeira">
+        <a href="/exhibitions/A-Derradeira">
+            <img src="/images/home/Casa.jpg" alt="Mar Hernández Exp.">
+            <div class="info right">
                 <h2>A Derradeira</h2>
-            </a>
-            <p>Exposición de Mar Hernández</p>
-        </div>
+        </a>
+        <p>Exposición de Mar Hernández</p>
+    </div>
     </div>
     <div class="exhibition reverse">
         <a href="/exhibitions/Delirios">

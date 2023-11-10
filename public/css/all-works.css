@@ -92,6 +92,7 @@ img {
 }
 
 .inputBox input {
+    font-family: 'PlayfairDisplay-Italic';
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
@@ -107,6 +108,7 @@ img {
 }
 
 .inputBox textarea {
+    font-family: 'PlayfairDisplay-Italic';
     width: 100%;
     height: 15vh;
     padding: 10px;
@@ -196,6 +198,14 @@ img {
     justify-content: center;
     align-items: center;
     height: 150vh;
+}
+
+.end {
+    margin-top: -10%;
+}
+
+#toast-container .toast-message {
+    font-family: 'PlayfairDisplay-Italic';
 }
 
 
@@ -435,6 +445,7 @@ img {
         right: -16%;
     }
     .fixed-button-works {
+        display: none;
         top: 55%;
         right: -11.5%;
     }

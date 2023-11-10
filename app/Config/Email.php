@@ -28,7 +28,7 @@ class Email extends BaseConfig
     /**
      * SMTP Server Address
      */
-    public string $SMTPHost = 'smtp.office365.com';
+    public string $SMTPHost = 'sandbox.smtp.mailtrap.io';
 
     /**
      * SMTP Username
@@ -41,14 +41,14 @@ class Email extends BaseConfig
 
     public function __construct()
     {
-        $this->SMTPUser = getenv('email.SMTPUser');
-        $this->SMTPPass = getenv('email.SMTPPass');
+        $this->SMTPUser = getenv('MAILTRAP_USER');
+        $this->SMTPPass = getenv('MAILTRAP_PASS');
     }
 
     /**
      * SMTP Port
      */
-    public int $SMTPPort = 587;
+    public int $SMTPPort = 2525;
 
     /**
      * SMTP Timeout (in seconds)

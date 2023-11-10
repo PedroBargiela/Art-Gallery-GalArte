@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/all-works.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 </head>
 
 <body>
@@ -39,6 +40,7 @@
             Si estás interesado en obtener esta obra
             <br>o quieres obtener una información mas detalla de ella,
             <br>rellena este formularios y te contactaremos facilitándote la información.
+
         </p>
     </div>
     <!-- Formulario sacado de: https://uiverse.io/JkHuger/afraid-frog-82-->
@@ -72,13 +74,18 @@
             </div>
         </div>
     </form>
-
+    <p class="end">
+        <br>En caso de no recibir la información por nuestra parte,
+        <br>puedes contactar directamente con nosotros.
+    </p>
     <footer>
         <?= view('partials/footer.php') ?>
     </footer>
 
     <div id="custom-cursor"></div>
     <script type="module" src="/js/common.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
@@ -92,7 +99,25 @@
                     type: 'post',
                     data: $(this).serialize(),
                     success: function(response) {
-                        alert(response);
+                        //Muestra la notificación de éxito
+                        toastr.options = {
+                            "closeButton": false,
+                            "debug": false,
+                            "newestOnTop": false,
+                            "progressBar": false,
+                            "positionClass": "toast-top-center",
+                            "preventDuplicates": false,
+                            "onclick": null,
+                            "showDuration": "300",
+                            "hideDuration": "1000",
+                            "timeOut": "3000",
+                            "extendedTimeOut": "1000",
+                            "showEasing": "swing",
+                            "hideEasing": "linear",
+                            "showMethod": "fadeIn",
+                            "hideMethod": "fadeOut"
+                        }
+                        toastr.success('¡Mensaje enviado con éxito!');
                     }
                 });
             });

@@ -110,6 +110,7 @@ hr {
     display: flex;
     flex-direction: column;
     margin: 15% 15%;
+    margin-bottom: 5%;
 }
 
 .content-container a {
