@@ -2,11 +2,20 @@
 
 namespace App\Controllers;
 
+use App\Models\WorkModel;
+
 class WorksController extends BaseController
 {
     public function index()
     {
-        echo view('works');
+        $model = new WorkModel();
+
+        $data['works'] = $model->findAll();
+
+        //Carga el archivo de funciones de ayuda
+        helper('url');
+
+        echo view('works', $data);
     }
 
     public function show($work)

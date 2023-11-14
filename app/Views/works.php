@@ -56,6 +56,21 @@
     </form>
 
     <div class="works">
+        <?php foreach ($works as $work) : ?>
+            <div class="card" data-artist="<?= $work['artist'] ?>" data-type="<?= $work['type'] ?>">
+                <a href="/works/<?= nameToUrl($work['name']) ?>">
+                    <div class="artwork">
+                        <img src="<?= base_url($work['image']) ?>" alt="<?= $work['name'] ?>">
+                    </div>
+                    <div class="artwork-info">
+                        <h2><?= $work['name'] ?></h2>
+                        <p><?= $work['artist'] ?></p>
+                    </div>
+                </a>
+            </div>
+        <?php endforeach; ?>
+    </div>
+    <!--<div class="works">
         <div class="card" data-artist="Seoane" data-type="Pintura">
             <a href="/works/A-Chambra-Branca">
                 <div class="artwork">
@@ -67,7 +82,7 @@
                 </div>
             </a>
         </div>
-        <div class="card" data-artist="Oro Claro" data-type="Pintura">
+        <div class="card" data-artist="Nacho Costa" data-type="Pintura">
             <a href="/works/A-Ría">
                 <div class="artwork">
                     <img src="/images/works/A-Ria.jpg" alt="A Ría">
@@ -617,7 +632,7 @@
                 </div>
             </a>
         </div>
-        <div class="card" data-artist="jorge Castillo" data-type="Pintura">
+        <div class="card" data-artist="Jorge Castillo" data-type="Pintura">
             <a href="/works/Personajes-Y-Aves">
                 <div class="artwork">
                     <img src="/images/works/Personajes.jpg" alt="Personajes Y Aves">
@@ -760,7 +775,7 @@
                 </div>
             </a>
         </div>
-        <div class="card" data-artist="Ramón Conde" data-type="Soledad">
+        <div class="card" data-artist="Ramón Conde" data-type="Escultura">
             <a href="/works/Soledad">
                 <div class="artwork">
                     <img src="/images/works/Soledad.jpg" alt="Soledad">
@@ -827,7 +842,7 @@
             </a>
         </div>
 
-    </div>
+    </div>-->
 
     <div class="pagination">
     </div>

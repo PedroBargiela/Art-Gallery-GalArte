@@ -67,3 +67,28 @@ window.onload = function() {
         artistLink.href = "/artists/list";
     }
 }
+
+let lastScrollTop = 0;
+const header = document.querySelector('header');
+
+//Función para detecatar si el dispositivo es móvil
+function isMobile() {
+    return window.innerWidth <= 600;
+}
+
+window.addEventListener('scroll', function() {
+    if (isMobile()) {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if (scrollTop > lastScrollTop) {
+            //Si se está desplazando hacia abajo, oculta el encabezado
+            header.style.display = 'none';
+        } else {
+            //Si se está desplazando hacia arriba, muestra el encabezado
+            header.style.display = 'block';
+        }
+        lastScrollTop = scrollTop;
+    } else {
+        //Si no es un móvil, siempre muestra el encabezado
+        header.style.display = 'block';
+    }
+});
