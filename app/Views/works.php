@@ -65,6 +65,7 @@
                     <div class="artwork-info">
                         <h2><?= $work['name'] ?></h2>
                         <p><?= $work['artist'] ?></p>
+                        <p><?= $work['price'] ?>€</p>
                     </div>
                 </a>
             </div>

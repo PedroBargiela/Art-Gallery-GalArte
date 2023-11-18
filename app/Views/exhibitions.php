@@ -21,6 +21,7 @@
     <header>
         <?= view('partials/header.php') ?>
     </header>
+
     <h1>EXPOSICIONES</h1>
     <img class="img-exhibitions" src="images/exhibitions.jpg" alt="Exposiciones">
     <hr>
@@ -75,11 +76,15 @@
     </div>
     </div>
 
+
+
     <footer>
         <?= view('partials/footer.php') ?>
     </footer>
 
     <div id="custom-cursor"></div>
+
+
     <script type="module" src="/js/common.js"></script>
     <script type="module" src="/js/exhibitions.js"></script>
 </body>

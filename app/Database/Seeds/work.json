@@ -1,0 +1,702 @@
+{
+    "A-Chambra-Branca": {
+        "title": "A Chambra Branca",
+        "slug": "A-Chambra-Branca",
+        "artist": "Seoane",
+        "image": "/images/works/A-Chambra-Branca.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "100 x 81 cm",
+        "year": "1969",
+        "price": "3490,99€"
+    },
+    "A-Ria": {
+        "title": "A Ría",
+        "slug": "A-Ría",
+        "artist": "Nacho Costa",
+        "image": "/images/works/A-Ria.jpg",
+        "type": "Acrílico sobre lienzo",
+        "dimensions": "116 x 89 cm",
+        "year": "1999",
+        "price": "3490,99€"
+    },
+    "Abismo": {
+        "title": "Abismo I",
+        "slug": "Abismo-I",
+        "artist": "Antón Pulido",
+        "image": "/images/works/Abismo.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "162 x 162 cm",
+        "year": "1991",
+        "price": "3490,99€"
+    },
+    "Anonimo": {
+        "title": "Anónimo",
+        "slug": "Anónimo",
+        "artist": "Alfonso Costa",
+        "image": "/images/works/Anonimo.jpg",
+        "type": "Técnica mixta sobre papel",
+        "dimensions": "100 x 70 cm",
+        "year": "2021",
+        "price": "3490,99€"
+    },
+    "Arlequin": {
+        "title": "Arlequín",
+        "slug": "Arlequín",
+        "artist": "Jorge Castillo",
+        "image": "/images/works/Arlequin.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "74 x 61 cm",
+        "year": "1986",
+        "price": "3490,99€"
+    },
+    "Barcos": {
+        "title": "Barcos Al Atardecer",
+        "slug": "Barcos-Al-Atardecer",
+        "artist": "Eloy Hernández",
+        "image": "/images/works/Barcos.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "81 x 130 cm",
+        "year": "1997",
+        "price": "3490,99€"
+    },
+    "Bisonte": {
+        "title": "Bisonte",
+        "slug": "Bisonte",
+        "artist": "Ramón Conde",
+        "image": "/images/works/Bisonte.jpg",
+        "type": "Bronce",
+        "dimensions": "19 x 16 x 15 cm",
+        "year": "2019",
+        "price": "3490,99€"
+    },
+    "Borracho": {
+        "title": "Borracho",
+        "slug": "Borracho",
+        "artist": "Carlos Alcolea",
+        "image": "/images/works/Borracho.jpg",
+        "type": "Óleo, acrílico y ceras colores sobre papel",
+        "dimensions": "99 x 69 cm",
+        "year": "-",
+        "price": "3490,99€"
+    },
+    "Cajas": {
+        "title": "Cajas",
+        "slug": "Cajas",
+        "artist": "Ánxel Huete",
+        "image": "/images/works/Cajas.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "163 x 130 cm",
+        "year": "1976",
+        "price": "3490,99€"
+    },
+    "Camiño-Vermello": {
+        "title": "Camiño Vermello",
+        "slug": "Camiño-Vermello",
+        "artist": "Antón Pulido",
+        "image": "/images/works/Camiño-Vermello.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "130 x 131 cm",
+        "year": "1988",
+        "price": "3490,99€"
+    },
+    "Chatarra": {
+        "title": "Chatarra",
+        "slug": "Chatarra",
+        "artist": "Aramburu",
+        "image": "/images/works/Chatarra.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "55 x 65 cm",
+        "year": "1975",
+        "price": "3490,99€"
+    },
+    "Ciclistas": {
+        "title": "Ciclistas",
+        "slug": "Ciclista",
+        "artist": "Antón Patiño",
+        "image": "/images/works/Ciclistas.jpg",
+        "type": "Pintura sobre tela",
+        "dimensions": "200 x 250 cm",
+        "year": "2021",
+        "price": "3490,99€"
+    },
+    "Composicion-Abstracta": {
+        "title": "Composición Abstracta1",
+        "slug": "Composición-Abstracta1",
+        "artist": "Deside",
+        "image": "/images/works/Composicion-Abstracta.jpg",
+        "type": "Mixta/tela",
+        "dimensions": "101 x 83 cm",
+        "year": "1980",
+        "price": "3490,99€"
+    },
+    "Composicion": {
+        "title": "Composición Abstracta2",
+        "slug": "Composición-Abstracta2",
+        "artist": "Deside",
+        "image": "/images/works/Composicion.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "101 x 83 cm",
+        "year": "1980",
+        "price": "3490,99€"
+    },
+    "Contemplando-La-Batalla": {
+        "title": "Contemplando La Batalla",
+        "slug": "Contemplando-La-Batalla",
+        "artist": "Alfonso Costa",
+        "image": "/images/works/Contemplando-La-Batalla.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "40 x 47 cm",
+        "year": "1982",
+        "price": "3490,99€"
+    },
+    "Desafio": {
+        "title": "Desafío",
+        "slug": "Desafío",
+        "artist": "Ramón Conde",
+        "image": "/images/works/Desafio.jpg",
+        "type": "Poliester",
+        "dimensions": "43 x 42 x 27 cm",
+        "year": "1994",
+        "price": "3490,99€"
+    },
+    "Deconstruccion": {
+        "title": "Deconstrucción",
+        "slug": "Deconstrucción",
+        "artist": "Alfonso Costa",
+        "image": "/images/works/Deconstruccion.jpg",
+        "type": "Técnica mixta sobre tela",
+        "dimensions": "160 x 150 cm",
+        "year": "2021",
+        "price": "3490,99€"
+    },
+    "Durmindo-Nas-Olas": {
+        "title": "Durmindo Nas Olas",
+        "slug": "Durmindo-Nas-Olas",
+        "artist": "Antón Pulido",
+        "image": "/images/works/Durmindo-Nas-Olas.png",
+        "type": "Acrílico sobre lienzo",
+        "dimensions": "150 x 150 cm",
+        "year": "2008",
+        "price": "3490,99€"
+    },
+    "El-Peregrino": {
+        "title": "El Peregrino",
+        "slug": "El-Peregrino",
+        "artist": "Lugrís Vadillo",
+        "image": "/images/works/El-Peregrino.jpg",
+        "type": "Pintura",
+        "dimensions": "150 x 161 cm",
+        "year": "-",
+        "price": "3490,99€"
+    },
+    "Entropia": {
+        "title": "Entropía",
+        "slug": "Entropía",
+        "artist": "Alfonso Costa",
+        "image": "/images/works/Entropia.jpg",
+        "type": "Acrílico sobre tela",
+        "dimensions": "97 x 97 cm",
+        "year": "2021",
+        "price": "3490,99€"
+    },
+    "Escrita-Das-Arbores": {
+        "title": "Escrita Das Árbores",
+        "slug": "Escrita-Das-Árbores",
+        "artist": "Antón Patiño",
+        "image": "/images/works/Escrita-Das-Arbores.jpg",
+        "type": "Mixta/tela",
+        "dimensions": "146 x 115 cm",
+        "year": "1992",
+        "price": "3490,99€"
+    },
+    "Espazo": {
+        "title": "Espazo Ingrávido",
+        "slug": "Espazo-Ingrávido",
+        "artist": "Antón Patiño",
+        "image": "/images/works/Espazo.jpg",
+        "type": "Pintura/tela",
+        "dimensions": "178 x 116 cm",
+        "year": "2017",
+        "price": "3490,99€"
+    },
+    "Espello-de-Papel": {
+        "title": "Espello De Papel",
+        "slug": "Espello-De-Papel",
+        "artist": "Alfonso Costa",
+        "image": "/images/works/Espello-de-Papel.jpg",
+        "type": "Técnica mixta/papel",
+        "dimensions": "70 x 100 cm",
+        "year": "2017",
+        "price": "3490,99€"
+    },
+    "Espello": {
+        "title": "A Mar Espello",
+        "slug": "A-Mar-Espello",
+        "artist": "Antón Sobral",
+        "image": "/images/works/Espello.jpg",
+        "type": "Óleo sobre lienzo",
+        "dimensions": "38 x 46 cm",
+        "year": "1995",
+        "price": "3490,99€"
+    },
+    "Familia": {
+        "title": "Familia Americana",
+        "slug": "Familia-Americana",
+        "artist": "Jorge Castillo",
+        "image": "/images/works/Familia.jpg",
+        "type": "Pintura",
+        "dimensions": "89 x 116 cm",
+        "year": "1995",
+        "price": "3490,99€"
+    },
+    "Felino": {
+        "title": "Felino",
+        "slug": "Felino",
+        "artist": "Alfonso Costa",
+        "image": "/images/works/Felino.jpg",
+        "type": "Técnica mixta sobre papel",
+        "dimensions": "76 x 76 cm",
+        "year": "2021",
+        "price": "3490,99€"
+    },
+    "Fosiles": {
+        "title": "Fósiles",
+        "slug": "Fósiles",
+        "artist": "Sandra Carvalho",
+        "image": "/images/works/Fosiles.jpg",
+        "type": "Acuarela y lápiz sobre papel",
+        "dimensions": "29,7 x 42 cm",
+        "year": "2020",
+        "price": "3490,99€"
+    },
+    "Hibernaculo": {
+        "title": "Hibernáculo",
+        "slug": "Hibernáculo",
+        "artist": "Jorge Barbi",
+        "image": "/images/works/Hibernaculo.jpg",
+        "type": "Contrachapado",
+        "dimensions": "155 x 70 x 70 cm",
+        "year": "1993",
+        "price": "3490,99€"
+    },
+    "Hierros": {
+        "title": "Hierros",
+        "slug": "Hierros",
+        "artist": "Aramburu",
+        "image": "/images/works/Hierros.jpeg",
+        "type": "Pintura",
+        "dimensions": "195 x 150 cm",
+        "year": "1996",
+        "price": "3490,99€"
+    },
+    "Historia": {
+        "title": "Historia",
+        "slug": "Historia",
+        "artist": "Alfonso Costa",
+        "image": "/images/works/Historia.jpg",
+        "type": "Técnica mixta sobre papel",
+        "dimensions": "70 x 100 cm",
+        "year": "2021",
+        "price": "3490,99€"
+    },
+    "Interea": {
+        "title": "Interea",
+        "slug": "Interea",
+        "artist": "Alfonso Costa",
+        "image": "/images/works/Interea.jpg",
+        "type": "Técnica mixta sobre lienzo",
+        "dimensions": "70 x 100 cm",
+        "year": "2021",
+        "price": "3490,99€"
+    },
+    "Islas-cies": {
+        "title": "Islas Cíes",
+        "slug": "Islas-Cíes",
+        "artist": "Alfonso Costa",
+        "image": "/images/works/Islas-cies.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "65 x 81 cm",
+        "year": "1981",
+        "price": "3490,99€"
+    },
+    "La-Palmera": {
+        "title": "La Palmera",
+        "slug": "La-Palmera",
+        "artist": "Antón Patiño",
+        "image": "/images/works/La-Palmera.png",
+        "type": "Pintura",
+        "dimensions": "260 x 195 cm",
+        "year": "1982",
+        "price": "3490,99€"
+    },
+    "La-Sagrada-Familia": {
+        "title": "La Sagrada Familia",
+        "slug": "La-Sagrada-Familia",
+        "artist": "Alfonso Costa",
+        "image": "/images/works/La-Sagrada-Familia.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "100 x 81 cm",
+        "year": "1981",
+        "price": "3490,99€"
+    },
+    "Levitando": {
+        "title": "Levitando",
+        "slug": "Levitando",
+        "artist": "Alfonso Costa",
+        "image": "/images/works/Levitando.jpg",
+        "type": "Óleo sobre lienzo",
+        "dimensions": "192 x 130 cm",
+        "year": "1990",
+        "price": "3490,99€"
+    },
+    "Loco": {
+        "title": "Loco Por Los Libros",
+        "slug": "Loco-Por-Los-Libros",
+        "artist": "Ramón Conde",
+        "image": "/images/works/Loco.jpg",
+        "type": "Bronce",
+        "dimensions": "23 x 20 x 13 cm",
+        "year": "2018",
+        "price": "3490,99€"
+    },
+    "Maternidad": {
+        "title": "Maternidad",
+        "slug": "Maternidad1",
+        "artist": "Ramón Conde",
+        "image": "/images/works/Maternidad.jpg",
+        "type": "Barro",
+        "dimensions": "21 x 15 x 22 cm",
+        "year": "1975",
+        "price": "3490,99€"
+    },
+    "Maternidade": {
+        "title": "Maternidad2",
+        "slug": "Maternidad2",
+        "artist": "Ramón Conde",
+        "image": "/images/works/Maternidade.jpg",
+        "type": "Bronce",
+        "dimensions": "27 x 16 x 20 cm",
+        "year": "1982",
+        "price": "3490,99€"
+    },
+    "Mesa": {
+        "title": "Mesa Quebrada",
+        "slug": "Mesa-Quebrada",
+        "artist": "Jorge Castillo",
+        "image": "/images/works/Mesa.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "156 x 127 cm",
+        "year": "1989",
+        "price": "3490,99€"
+    },
+    "Muller": {
+        "title": "Muller III",
+        "slug": "Muller-III",
+        "artist": "Antón Pulido",
+        "image": "/images/works/Muller.jpg",
+        "type": "Óleo sobre lienzo",
+        "dimensions": "200 x 200 cm",
+        "year": "1991",
+        "price": "3490,99€"
+    },
+    "Nas-Marxes": {
+        "title": "Nas Marxes",
+        "slug": "Nas-Marxes",
+        "artist": "Alfonso Costa",
+        "image": "/images/works/Nas-Marxes.jpg",
+        "type": "Técnica mixta sobre papel",
+        "dimensions": "70 x 100 cm",
+        "year": "2021",
+        "price": "3490,99€"
+    },
+    "New-York": {
+        "title": "New York",
+        "slug": "New-York",
+        "artist": "Jorge Castillo",
+        "image": "/images/works/New-York.jpg",
+        "type": "Óleo sobre lienzo",
+        "dimensions": "92 x 73 cm",
+        "year": "1987",
+        "price": "3490,99€"
+    },
+    "no": {
+        "title": "Sin Título1",
+        "slug": "Sin-Título1",
+        "artist": "Jorge Barbi",
+        "image": "/images/works/no.jpg",
+        "type": "Cadena de bicicleta",
+        "dimensions": "46 x 9 x 4 cm",
+        "year": "1994",
+        "price": "3490,99€"
+    },
+    "notitulo": {
+        "title": "Sin Título2",
+        "slug": "Sin-Título2",
+        "artist": "Carlos Alcolea",
+        "image": "/images/works/notitulo.jpg",
+        "type": "Óleo sobre lienzo",
+        "dimensions": "161 x 115 cm",
+        "year": "1973",
+        "price": "3490,99€"
+    },
+    "oceano": {
+        "title": "Serie Océano",
+        "slug": "Serie-Océano",
+        "artist": "Antón Sobral",
+        "image": "/images/works/oceano.png",
+        "type": "Óleo sobre lienzo",
+        "dimensions": "100 x 100 cm",
+        "year": "2006",
+        "price": "3490,99€"
+    },
+    "Pagina": {
+        "title": "Pagina N2",
+        "slug": "PáginaN2",
+        "artist": "Antonio Murado",
+        "image": "/images/works/Pagina.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "162 x 130 cm",
+        "year": "1993",
+        "price": "3490,99€"
+    },
+    "Paisaje-Arenoso": {
+        "title": "Paisaje Arenoso",
+        "slug": "Paisaje-Arenoso",
+        "artist": "Antonio Murado",
+        "image": "/images/works/Paisaje-Arenoso.jpg",
+        "type": "Óleo sobre tela",
+        "dimensions": "206 x 169 cm",
+        "year": "2001",
+        "price": "3490,99€"
+    },
+    "Pajaros": {
+        "title": "Pájaros Sobre Hojas",
+        "slug": "Pájaros-Sobre-Hojas",
+        "artist": "Jorge Castillo",
+        "image": "/images/works/Pajaros.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "97 x 130 cm",
+        "year": "1987",
+        "price": "3490,99€"
+    },
+    "Papeleria": {
+        "title": "Papelería Compostela",
+        "slug": "Papelería-Compostela",
+        "artist": "Mar Hernández",
+        "image": "/images/works/Papeleria.jpg",
+        "type": "Dibujo sobre impresión digital",
+        "dimensions": "76 x 108 cm",
+        "year": "2019",
+        "price": "3490,99€"
+    },
+    "Papeles": {
+        "title": "Papeles Encontrados",
+        "slug": "Papeles-Encontrados",
+        "artist": "Sandra Carvalho",
+        "image": "/images/works/Papeles.jpg",
+        "type": "Acuarela sobre papel",
+        "dimensions": "49 x 37 cm",
+        "year": "2019",
+        "price": "3490,99€"
+    },
+    "Perdices": {
+        "title": "Perdices",
+        "slug": "Perdices",
+        "artist": "Antón Lamazares",
+        "image": "/images/works/Perdices.jpg",
+        "type": "Mixta sobre cartón y madera",
+        "dimensions": "251 x 251 cm",
+        "year": "1997",
+        "price": "3490,99€"
+    },
+    "Personajes": {
+        "title": "Personajes Y Aves",
+        "slug": "Personajes-Y-Aves",
+        "artist": "Jorge Castillo",
+        "image": "/images/works/Personajes.jpg",
+        "type": "Óleo/tela",
+        "dimensions": "41 x 33 cm",
+        "year": "1995",
+        "price": "3490,99€"
+    },
+    "Personaxes-De-Millet": {
+        "title": "Personaxes De Millet",
+        "slug": "Personaxes-De-Millet",
+        "artist": "Salveiro Rivas",
+        "image": "/images/works/Personaxes-De-Millet.jpg",
+        "type": "Bronce",
+        "dimensions": "110 x 28 x 28 cm",
+        "year": "2000",
+        "price": "3490,99€"
+    },
+    "Pesanervios": {
+        "title": "Pesanervios",
+        "slug": "Pesanervios",
+        "artist": "Antón Patiño",
+        "image": "/images/works/Pesanervios.jpg",
+        "type": "Pintura/tela",
+        "dimensions": "146 x 114 cm",
+        "year": "1999",
+        "price": "3490,99€"
+    },
+    "Petenidad": {
+        "title": "Paternidad",
+        "slug": "Paternidad",
+        "artist": "Ramón Conde",
+        "image": "/images/works/Petenidad.jpg",
+        "type": "Bronce",
+        "dimensions": "12 x 12 x 12 cm",
+        "year": "2018",
+        "price": "3490,99€"
+    },
+    "PiscinaB": {
+        "title": "Piscina B",
+        "slug": "Piscina-B",
+        "artist": "Carlos Alcolea",
+        "image": "/images/works/PiscinaB.jpg",
+        "type": "Acrílico sobre lienzo",
+        "dimensions": "181 x 151 cm",
+        "year": "1972",
+        "price": "3490,99€"
+    },
+    "Puesta": {
+        "title": "Puesta De Sol",
+        "slug": "Puesta-De-Sol",
+        "artist": "Antón Sobral",
+        "image": "/images/works/Puesta.jpg",
+        "type": "Óleo sobre lienzo",
+        "dimensions": "38 x 46 cm",
+        "year": "1978",
+        "price": "3490,99€"
+    },
+    "Recorrido": {
+        "title": "Recorrido",
+        "slug": "Recorrido",
+        "artist": "Antón Patiño",
+        "image": "/images/works/Recorrido.jpg",
+        "type": "Pintura/tela",
+        "dimensions": "70 x 70 cm",
+        "year": "2017",
+        "price": "3490,99€"
+    },
+    "Sellos": {
+        "title": "Sello 23",
+        "slug": "Sello23",
+        "artist": "Antón Lamazares",
+        "image": "/images/works/Sellos.jpg",
+        "type": "Técnica mixta sobre cartón-madera",
+        "dimensions": "130 x 176 cm",
+        "year": "1987",
+        "price": "3490,99€"
+    },
+    "Sin": {
+        "title": "Sin Título3",
+        "slug": "Sin-Título3",
+        "artist": "Silveiro Rivas",
+        "image": "/images/works/Sin.jpg",
+        "type": "Bronce",
+        "dimensions": "37 x 9 x 9 cm",
+        "year": "1991",
+        "price": "3490,99€"
+    },
+    "sin1": {
+        "title": "Sin Título4",
+        "slug": "Sin-Título4",
+        "artist": "Jorge Barbi",
+        "image": "/images/works/sin1.jpg",
+        "type": "Fotografía sobre aluminio",
+        "dimensions": "70 x 50 cm",
+        "year": "2001",
+        "price": "3490,99€"
+    },
+    "sin2": {
+        "title": "Sin Título5",
+        "slug": "Sin-Título5",
+        "artist": "Jorge Barbi",
+        "image": "/images/works/sin2.jpg",
+        "type": "Fotografía sobre aluminio",
+        "dimensions": "70 x 100 cm",
+        "year": "2001",
+        "price": "3490,99€"
+    },
+    "sin3": {
+        "title": "Sin Título6",
+        "slug": "Sin-Título6",
+        "artist": "Jorge Barbi",
+        "image": "/images/works/sin3.jpg",
+        "type": "Fotografía sobre aluminio",
+        "dimensions": "70 x 50 cm",
+        "year": "2001",
+        "price": "3490,99€"
+    },
+    "sintituo": {
+        "title": "Sin Título7",
+        "slug": "Sin-Título7",
+        "artist": "Alfonso Costa",
+        "image": "/images/works/sintituo.jpg",
+        "type": "Óleo sobre lienzo",
+        "dimensions": "82 x 65 cm",
+        "year": "2005",
+        "price": "3490,99€"
+    },
+    "Soledad": {
+        "title": "Soledad",
+        "slug": "Soledad",
+        "artist": "Ramón Conde",
+        "image": "/images/works/Soledad.jpg",
+        "type": "Bronce",
+        "dimensions": "21 x 30 x 25 cm",
+        "year": "2018",
+        "price": "3490,99€"
+    },
+    "ST": {
+        "title": "ST",
+        "slug": "ST",
+        "artist": "Antón Patiño",
+        "image": "/images/works/ST.jpg",
+        "type": "Pintura sobre tela",
+        "dimensions": "195 x 162 cm",
+        "year": "1985",
+        "price": "3490,99€"
+    },
+    "st": {
+        "title": "st",
+        "slug": "st",
+        "artist": "Pilar Alonso",
+        "image": "/images/works/st.png",
+        "type": "Carbón sobre papel aguado",
+        "dimensions": "200 x 200 cm",
+        "year": "2008",
+        "price": "3490,99€"
+    },
+    "Sufrido": {
+        "title": "Sufrido",
+        "slug": "Sufrido",
+        "artist": "Antón Lamazares",
+        "image": "/images/works/Sufrido.jpg",
+        "type": "Óleo y barniz sobre cartón adherido a tabla",
+        "dimensions": "70 x 50 cm",
+        "year": "1985",
+        "price": "3490,99€"
+    },
+    "Suplemento": {
+        "title": "Suplementos",
+        "slug": "Suplementos",
+        "artist": "Sandra Carvalho",
+        "image": "/images/works/Suplemento.jpg",
+        "type": "Acuarela sobre papel",
+        "dimensions": "40,5 x 59,5 cm",
+        "year": "2020",
+        "price": "3490,99€"
+    },
+    "Venecia": {
+        "title": "Venecia",
+        "slug": "Venecia",
+        "artist": "Antón Sobral",
+        "image": "/images/works/Venecia.jpg",
+        "type": "Óleo sobre lienzo",
+        "dimensions": "74 x 92 cm",
+        "year": "1999",
+        "price": "3490,99€"
+    }
+}

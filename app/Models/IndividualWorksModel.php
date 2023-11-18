@@ -4,16 +4,16 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class WorkModel extends Model
+class IndividualWorksModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'works';
+    protected $table            = 'individualworks';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['name', 'artist', 'type', 'image', 'price'];
+    protected $allowedFields    = ['title', 'artist', 'image', 'type', 'dimensions', 'year', 'price'];
 
     // Dates
     protected $useTimestamps = false;
@@ -38,4 +38,9 @@ class WorkModel extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function findExhibitionByTitle($title)
+    {
+        return $this->where('title', $title)->first();
+    }
 }

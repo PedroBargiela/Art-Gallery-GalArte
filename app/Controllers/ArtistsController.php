@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\ArtistsModel;
+
 class ArtistsController extends BaseController
 {
     public function index()
@@ -9,9 +11,20 @@ class ArtistsController extends BaseController
         echo view('artists');
     }
 
-    public function show($artist)
+    public function show($artistSlug)
     {
-        switch ($artist) {
+        $model = new ArtistsModel();
+        $data['artist'] = $model->where('slug', $artistSlug)->first();
+
+        if (empty($data['artist'])) {
+            // artist Not Found
+            echo "artist Not Found for Slug: $artistSlug";
+        } else {
+            echo view('artist', $data);
+        }
+    }
+
+    /*switch ($artist) {
             case 'Alfonso-Costa':
                 $artistData = [
                     'title' => 'Alfonso Costa',
@@ -237,5 +250,5 @@ class ArtistsController extends BaseController
         }
 
         echo view('artist', $artistData);
-    }
+    }*/
 }

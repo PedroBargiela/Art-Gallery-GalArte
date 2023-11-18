@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use App\Models\ExhibitionModel;
+
 class ExhibitionsController extends BaseController
 {
     public function index()
@@ -9,7 +11,69 @@ class ExhibitionsController extends BaseController
         echo view('exhibitions');
     }
 
-    public function show($exhibition)
+    public function show($exhibitionSlug)
+    {
+        $model = new ExhibitionModel();
+        $data['exhibition'] = $model->where('slug', $exhibitionSlug)->first();
+
+        if (empty($data['exhibition'])) {
+            // Exhibition Not Found
+            echo "Exhibition Not Found for Slug: $exhibitionSlug";
+        } else {
+            echo view('exhibition', $data);
+        }
+    }
+
+
+    /*public function handleButtonsLogic($exhibition)
+    {
+        // Verificar si $exhibition es un array antes de contar sus elementos
+        if (!is_array($exhibition)) {
+            // Manejar el caso en que $exhibition no es un array
+            return [
+                'exhibition' => [],
+                'button_link1' => '',
+                'button_text1' => '',
+                'button_link2' => '',
+                'button_text2' => '',
+            ];
+        }
+
+        $totalExhibitions = count($exhibition);
+
+        $id = $exhibition['id']; // Asumo que hay un campo 'id' en tu exposición
+
+        //Determina el enlace del botón anterior
+        $prevTitle = ($id > 1) ? $this->getTitleById($id - 1) : '';
+        $item['button_link1'] = ($id > 1) ? '/exhibitions/' . str_replace(' ', '-', $prevTitle) : '';
+        $item['button_text1'] = 'ver anterior';
+
+        //Determina el enlace del botón siguiente
+        $nextTitle = ($id < $totalExhibitions) ? $this->getTitleById($id + 1) : '';
+        $item['button_link2'] = ($id < $totalExhibitions) ? '/exhibitions/' . str_replace(' ', '-', $nextTitle) : '';
+        $item['button_text2'] = 'ver siguiente';
+
+        //Añade la exposición a la variable $data
+        $exhibition[$id] = $item;
+
+        return [
+            'exhibition' => $exhibition,
+            'button_link1' => $item['button_link1'],
+            'button_text1' => $item['button_text1'],
+            'button_link2' => $item['button_link2'],
+            'button_text2' => $item['button_text2'],
+        ];
+    }
+
+    //Función para obtener el título por ID
+    private function getTitleById($id)
+    {
+        $model = new ExhibitionModel();
+        $exhibition = $model->find($id);
+        return $exhibition['title'] ?? '';
+    }*/
+
+    /*public function show($exhibition)
     {
         switch ($exhibition) {
             case 'Interea':
@@ -117,5 +181,5 @@ class ExhibitionsController extends BaseController
         }
 
         echo view('exhibition', $exhibitionData);
-    }
+    }*/
 }

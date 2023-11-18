@@ -2,13 +2,15 @@
 
 namespace App\Controllers;
 
-use App\Models\WorkModel;
+use App\Models\WorksModel;
+
+use App\Models\IndividualWorksModel;
 
 class WorksController extends BaseController
 {
     public function index()
     {
-        $model = new WorkModel();
+        $model = new WorksModel();
 
         $data['works'] = $model->findAll();
 
@@ -18,9 +20,20 @@ class WorksController extends BaseController
         echo view('works', $data);
     }
 
-    public function show($work)
+    public function show($workSlug)
     {
-        switch ($work) {
+
+        $model = new IndividualWorksModel();
+        $data['work'] = $model->where('slug', $workSlug)->first();
+
+        if (empty($data['work'])) {
+            // Work Not Found
+            echo "Work Not Found for Slug: $workSlug";
+        } else {
+            echo view('work', $data);
+        }
+    }
+    /*switch ($work) {
             case 'A-Chambra-Branca':
                 $workData = [
                     'title' => 'A Chambra Branca',
@@ -1216,5 +1229,5 @@ class WorksController extends BaseController
         }
 
         echo view('work', $workData);
-    }
+    }*/
 }

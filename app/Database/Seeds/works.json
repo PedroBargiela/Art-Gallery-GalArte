@@ -1,0 +1,492 @@
+    {
+    "A-Chambra-Branca": {
+        "name": "A Chambra Branca",
+        "artist": "Seoane",
+        "type": "Pintura",
+        "image": "/images/works/A-Chambra-Branca.jpg",
+        "price": "3490,99€"
+    },
+    "A-Ria": {
+        "name": "A Ría",
+        "artist": "Nacho Costa",
+        "type": "Pintura",
+        "image": "/images/works/A-Ria.jpg",
+        "price": "3490,99€"
+    },
+    "Abismo": {
+        "name": "Abismo I",
+        "artist": "Antón Pulido",
+        "type": "Pintura",
+        "image": "/images/works/Abismo.jpg",
+        "price": "3490,99€"
+    },
+    "Anonimo": {
+        "name": "Anónimo",
+        "artist": "Alfonso Costa",
+        "type": "Pintura",
+        "image": "/images/works/Anonimo.jpg",
+        "price": "3490,99€"
+    },
+    "Arlequin": {
+        "name": "Arlequín",
+        "artist": "Jorge Castillo",
+        "type": "Pintura",
+        "image": "/images/works/Arlequin.jpg",
+        "price": "3490,99€"
+    },
+    "Barcos": {
+        "name": "Barcos Al Atardecer",
+        "artist": "Eloy Hernández",
+        "type": "Pintura",
+        "image": "/images/works/Barcos.jpg",
+        "price": "3490,99€"
+    },
+    "Bisonte": {
+        "name": "Bisonte",
+        "artist": "Ramón Conde",
+        "type": "Escultura",
+        "image": "/images/works/Bisonte.jpg",
+        "price": "3490,99€"
+    },
+    "Borracho": {
+        "name": "Borracho",
+        "artist": "Carlos Alcolea",
+        "type": "Pintura",
+        "image": "/images/works/Borracho.jpg",
+        "price": "3490,99€"
+    },
+    "Cajas": {
+        "name": "Cajas",
+        "artist": "Ánxel Huete",
+        "type": "Pintura",
+        "image": "/images/works/Cajas.jpg",
+        "price": "3490,99€"
+    },
+    "Camiño-Vermello": {
+        "name": "Camiño Vermello",
+        "artist": "Antón Pulido",
+        "type": "Pintura",
+        "image": "/images/works/Camiño-Vermello.jpg",
+        "price": "3490,99€"
+    },
+    "Chatarra": {
+        "name": "Chatarra",
+        "artist": "Aramburu",
+        "type": "Pintura",
+        "image": "/images/works/Chatarra.jpg",
+        "price": "3490,99€"
+    },
+    "Ciclistas": {
+        "name": "Ciclistas",
+        "artist": "Antón Patiño",
+        "type": "Pintura",
+        "image": "/images/works/Ciclistas.jpg",
+        "price": "3490,99€"
+    },
+    "Composicion-Abstracta": {
+        "name": "Composición Abstracta1",
+        "artist": "Deside",
+        "type": "Pintura",
+        "image": "/images/works/Composicion-Abstracta.jpg",
+        "price": "3490,99€"
+    },
+    "Composicion": {
+        "name": "Composición Abstracta2",
+        "artist": "Deside",
+        "type": "Pintura",
+        "image": "/images/works/Composicion.jpg",
+        "price": "3490,99€"
+    },
+    "Contemplando-La-Batalla": {
+        "name": "Contemplando La Batalla",
+        "artist": "Alfonso Costa",
+        "type": "Pintura",
+        "image": "/images/works/Contemplando-La-Batalla.jpg",
+        "price": "3490,99€"
+    },
+    "Desafio": {
+        "name": "Desafío",
+        "artist": "Ramón Conde",
+        "type": "Escultura",
+        "image": "/images/works/Desafio.jpg",
+        "price": "3490,99€"
+    },
+    "Deconstruccion": {
+        "name": "Deconstrucción",
+        "artist": "Alfonso Costa",
+        "type": "Pintura",
+        "image": "/images/works/Deconstruccion.jpg",
+        "price": "3490,99€"
+    },
+    "Durmindo-Nas-Olas": {
+        "name": "Durmindo Nas Olas",
+        "artist": "Antón Pulido",
+        "type": "Pintura",
+        "image": "/images/works/Durmindo-Nas-Olas.png",
+        "price": "3490,99€"
+    },
+    "El-Peregrino": {
+        "name": "El Peregrino",
+        "artist": "Lugrís Vadillo",
+        "type": "Pintura",
+        "image": "/images/works/El-Peregrino.jpg",
+        "price": "3490,99€"
+    },
+    "Entropia": {
+        "name": "Entropía",
+        "artist": "Alfonso Costa",
+        "type": "Pintura",
+        "image": "/images/works/Entropia.jpg",
+        "price": "3490,99€"
+    },
+    "Escrita-Das-Arbores": {
+        "name": "Escrita Das Árbores",
+        "artist": "Antón Patiño",
+        "type": "Pintura",
+        "image": "/images/works/Escrita-Das-Arbores.jpg",
+        "price": "3490,99€"
+    },
+    "Espazo": {
+        "name": "Espazo Ingrávido",
+        "artist": "Antón Patiño",
+        "type": "Pintura",
+        "image": "/images/works/Espazo.jpg",
+        "price": "3490,99€"
+    },
+    "Espello-de-Papel": {
+        "name": "Espello De Papel",
+        "artist": "Alfonso Costa",
+        "type": "Pintura",
+        "image": "/images/works/Espello-de-Papel.jpg",
+        "price": "3490,99€"
+    },
+    "Espello": {
+        "name": "A Mar Espello",
+        "artist": "Antón Sobral",
+        "type": "Pintura",
+        "image": "/images/works/Espello.jpg",
+        "price": "3490,99€"
+    },
+    "Familia": {
+        "name": "Familia Americana",
+        "artist": "Jorge Castillo",
+        "type": "Pintura",
+        "image": "/images/works/Familia.jpg",
+        "price": "3490,99€"
+    },
+    "Felino": {
+        "name": "Felino",
+        "artist": "Alfonso Costa",
+        "type": "Pintura",
+        "image": "/images/works/Felino.jpg",
+        "price": "3490,99€"
+    },
+    "Fosiles": {
+        "name": "Fósiles",
+        "artist": "Sandra Carvalho",
+        "type": "Pintura",
+        "image": "/images/works/Fosiles.jpg",
+        "price": "3490,99€"
+    },
+    "Hibernaculo": {
+        "name": "Hibernáculo",
+        "artist": "Jorge Barbi",
+        "type": "Escultura",
+        "image": "/images/works/Hibernaculo.jpg",
+        "price": "3490,99€"
+    },
+    "Hierros": {
+        "name": "Hierros",
+        "artist": "Aramburu",
+        "type": "Pintura",
+        "image": "/images/works/Hierros.jpeg",
+        "price": "3490,99€"
+    },
+    "Historia": {
+        "name": "Historia",
+        "artist": "Alfonso Costa",
+        "type": "Pintura",
+        "image": "/images/works/Historia.jpg",
+        "price": "3490,99€"
+    },
+    "Interea": {
+        "name": "Interea",
+        "artist": "Alfonso Costa",
+        "type": "Pintura",
+        "image": "/images/works/Interea.jpg",
+        "price": "3490,99€"
+    },
+    "Islas-cies": {
+        "name": "Islas Cíes",
+        "artist": "Alfonso Costa",
+        "type": "Pintura",
+        "image": "/images/works/Islas-cies.jpg",
+        "price": "3490,99€"
+    },
+    "La-Palmera": {
+        "name": "La Palmera",
+        "artist": "Antón Patiño",
+        "type": "Pintura",
+        "image": "/images/works/La-Palmera.png",
+        "price": "3490,99€"
+    },
+    "La-Sagrada-Familia": {
+        "name": "La Sagrada Familia",
+        "artist": "Alfonso Costa",
+        "type": "Pintura",
+        "image": "/images/works/La-Sagrada-Familia.jpg",
+        "price": "3490,99€"
+    },
+    "Levitando": {
+        "name": "Levitando",
+        "artist": "Alfonso Costa",
+        "type": "Pintura",
+        "image": "/images/works/Levitando.jpg",
+        "price": "3490,99€"
+    },
+    "Loco": {
+        "name": "Loco Por Los Libros",
+        "artist": "Ramón Conde",
+        "type": "Escultura",
+        "image": "/images/works/Loco.jpg",
+        "price": "3490,99€"
+    },
+    "Maternidad": {
+        "name": "Maternidad",
+        "artist": "Ramón Conde",
+        "type": "Escultura",
+        "image": "/images/works/Maternidad.jpg",
+        "price": "3490,99€"
+    },
+    "Maternidade": {
+        "name": "Maternidad2",
+        "artist": "Ramón Conde",
+        "type": "Escultura",
+        "image": "/images/works/Maternidade.jpg",
+        "price": "3490,99€"
+    },
+    "Mesa": {
+        "name": "Mesa Quebrada",
+        "artist": "Jorge Castillo",
+        "type": "Pintura",
+        "image": "/images/works/Mesa.jpg",
+        "price": "3490,99€"
+    },
+    "Muller": {
+        "name": "Muller III",
+        "artist": "Antón Pulido",
+        "type": "Pintura",
+        "image": "/images/works/Muller.jpg",
+        "price": "3490,99€"
+    },
+    "Nas-Marxes": {
+        "name": "Nas Marxes",
+        "artist": "Alfonso Costa",
+        "type": "Pintura",
+        "image": "/images/works/Nas-Marxes.jpg",
+        "price": "3490,99€"
+    },
+    "New-York": {
+        "name": "New York",
+        "artist": "Jorge Castillo",
+        "type": "Pintura",
+        "image": "/images/works/New-York.jpg",
+        "price": "3490,99€"
+    },
+    "no": {
+        "name": "Sin Título1",
+        "artist": "Jorge Barbi",
+        "type": "Escultura",
+        "image": "/images/works/no.jpg",
+        "price": "3490,99€"
+    },
+    "notitulo": {
+        "name": "Sin Título2",
+        "artist": "Carlos Alcolea",
+        "type": "Pintura",
+        "image": "/images/works/notitulo.jpg",
+        "price": "3490,99€"
+    },
+    "oceano": {
+        "name": "Serie Océano",
+        "artist": "Antón Sobral",
+        "type": "Pintura",
+        "image": "/images/works/oceano.png",
+        "price": "3490,99€"
+    },
+    "Pagina": {
+        "name": "Pagina N2",
+        "artist": "Antonio Murado",
+        "type": "Pintura",
+        "image": "/images/works/Pagina.jpg",
+        "price": "3490,99€"
+    },
+    "Paisaje-Arenoso": {
+        "name": "Paisaje Arenoso",
+        "artist": "Antonio Murado",
+        "type": "Pintura",
+        "image": "/images/works/Paisaje-Arenoso.jpg",
+        "price": "3490,99€"
+    },
+    "Pajaros": {
+        "name": "Pájaros Sobre Hojas",
+        "artist": "Jorge Castillo",
+        "type": "Pintura",
+        "image": "/images/works/Pajaros.jpg",
+        "price": "3490,99€"
+    },
+    "Papeleria": {
+        "name": "Papelería Compostela",
+        "artist": "Mar Hernández",
+        "type": "Pintura",
+        "image": "/images/works/Papeleria.jpg",
+        "price": "3490,99€"
+    },
+    "Papeles": {
+        "name": "Papeles Encontrados",
+        "artist": "Sandra Carvalho",
+        "type": "Pintura",
+        "image": "/images/works/Papeles.jpg",
+        "price": "3490,99€"
+    },
+    "Perdices": {
+        "name": "Perdices",
+        "artist": "Antón Lamazares",
+        "type": "Pintura",
+        "image": "/images/works/Perdices.jpg",
+        "price": "3490,99€"
+    },
+    "Personajes": {
+        "name": "Personajes Y Aves",
+        "artist": "Jorge Castillo",
+        "type": "Pintura",
+        "image": "/images/works/Personajes.jpg",
+        "price": "3490,99€"
+    },
+    "Personaxes-De-Millet": {
+        "name": "Personaxes De Millet",
+        "artist": "Salveiro Rivas",
+        "type": "Escultura",
+        "image": "/images/works/Personaxes-De-Millet.jpg",
+        "price": "3490,99€"
+    },
+    "Pesanervios": {
+        "name": "Pesanervios",
+        "artist": "Antón Patiño",
+        "type": "Pintura",
+        "image": "/images/works/Pesanervios.jpg",
+        "price": "3490,99€"
+    },
+    "Petenidad": {
+        "name": "Paternidad",
+        "artist": "Ramón Conde",
+        "type": "Escultura",
+        "image": "/images/works/Petenidad.jpg",
+        "price": "3490,99€"
+    },
+    "PiscinaB": {
+        "name": "Piscina B",
+        "artist": "Carlos Alcolea",
+        "type": "Pintura",
+        "image": "/images/works/PiscinaB.jpg",
+        "price": "3490,99€"
+    },
+    "Puesta": {
+        "name": "Puesta De Sol",
+        "artist": "Antón Sobral",
+        "type": "Pintura",
+        "image": "/images/works/Puesta.jpg",
+        "price": "3490,99€"
+    },
+    "Recorrido": {
+        "name": "Recorrido",
+        "artist": "Antón Patiño",
+        "type": "Pintura",
+        "image": "/images/works/Recorrido.jpg",
+        "price": "3490,99€"
+    },
+    "Sellos": {
+        "name": "Sello 23",
+        "artist": "Antón Lamazares",
+        "type": "Pintura",
+        "image": "/images/works/Sellos.jpg",
+        "price": "3490,99€"
+    },
+    "Sin": {
+        "name": "Sin Título3",
+        "artist": "Silveiro Rivas",
+        "type": "Escultura",
+        "image": "/images/works/Sin.jpg",
+        "price": "3490,99€"
+    },
+    "sin1": {
+        "name": "Sin Título4",
+        "artist": "Jorge Barbi",
+        "type": "Escultura",
+        "image": "/images/works/sin1.jpg",
+        "price": "3490,99€"
+    },
+    "sin2": {
+        "name": "Sin Título5",
+        "artist": "Jorge Barbi",
+        "type": "Escultura",
+        "image": "/images/works/sin2.jpg",
+        "price": "3490,99€"
+    },
+    "sin3": {
+        "name": "Sin Título6",
+        "artist": "Jorge Barbi",
+        "type": "Escultura",
+        "image": "/images/works/sin3.jpg",
+        "price": "3490,99€"
+    },
+    "sintituo": {
+        "name": "Sin Título7",
+        "artist": "Alfonso Costa",
+        "type": "Pintura",
+        "image": "/images/works/sintituo.jpg",
+        "price": "3490,99€"
+    },
+    "Soledad": {
+        "name": "Soledad",
+        "artist": "Ramón Conde",
+        "type": "Escultura",
+        "image": "/images/works/Soledad.jpg",
+        "price": "3490,99€"
+    },
+    "ST": {
+        "name": "ST",
+        "artist": "Antón Patiño",
+        "type": "Pintura",
+        "image": "/images/works/ST.jpg",
+        "price": "3490,99€"
+    },
+    "st": {
+        "name": "st",
+        "artist": "Pilar Alonso",
+        "type": "Pintura",
+        "image": "/images/works/st.png",
+        "price": "3490,99€"
+    },
+    "Sufrido": {
+        "name": "Sufrido",
+        "artist": "Antón Lamazares",
+        "type": "Pintura",
+        "image": "/images/works/Sufrido.jpg",
+        "price": "3490,99€"
+    },
+    "Suplemento": {
+        "name": "Suplementos",
+        "artist": "Sandra Carvalho",
+        "type": "Pintura",
+        "image": "/images/works/Suplemento.jpg",
+        "price": "3490,99€"
+    },
+    "Venecia": {
+        "name": "Venecia",
+        "artist": "Antón Sobral",
+        "type": "Pintura",
+        "image": "/images/works/Venecia.jpg",
+        "price": "3490,99€"
+    }
+}
