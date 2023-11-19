@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use CodeIgniter\Email\Email;
+use App\Models\InfoFormModel;
 
 class FormController extends Controller
 {
@@ -15,6 +16,16 @@ class FormController extends Controller
         $workName = $this->request->getPost('work-name');
         $email = $this->request->getPost('email');
         $message = $this->request->getPost('message');
+
+        // Guardar la información en la base de datos
+        $model = new InfoFormModel();
+        $data = [
+            'name' => $name,
+            'artist_and_work' => $workName,
+            'email' => $email,
+            'message' => $message,
+        ];
+        $model->insert($data);
 
         $mail = \Config\Services::email();
         $mail->setFrom(getenv('MAILTRAP_USER'), 'Formulario de Solicitud de Información');

@@ -26,6 +26,6 @@ class DashboardController extends BaseController
             'title' => 'Profile',
             'userInfo' => $userInfo
         ];
-        return view('dashboard/profile', $data);
+        return view('dashboard/profile22', $data);
     }
 }

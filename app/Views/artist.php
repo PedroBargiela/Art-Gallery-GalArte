@@ -12,7 +12,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('/assets/favicon.ico'); ?>">
     <link rel="stylesheet" href="/css/all-artists.css">
     <link rel="stylesheet" href="/css/common.css">
-    <link rel="stylesheet" href="/css/login.css">
 
 </head>
 
@@ -67,7 +66,7 @@
         </footer>
 
         <div id="custom-cursor"></div>
-        <?= view('partials/login.php') ?>
+
         <script type="module" src="/js/common.js"></script>
         <script type="module" src="/js/login.js"></script>
 </body>

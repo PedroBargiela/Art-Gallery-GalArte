@@ -15,13 +15,23 @@
     </ul>
     <div class="close-menu interactive vertical-text" id="closeMenu">cerrar</div>
 </div>
-<div class="button-wrapper">
-    <a href="/auth" class="button button1">
-        <svg width="30" height="30" class="svgIcon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 14 18">
-            <path d="M7 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9Zm2 1H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z" />
-        </svg>
-    </a>
-</div>
+<?php if ($isLoggedIn) : ?>
+    <div class="button-wrapper">
+        <a href="/profile" class="button button1 logged-in">
+            <svg width="30" height="30" class="svgIcon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 14 18">
+                <path d="M7 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9Zm2 1H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z" />
+            </svg>
+        </a>
+    </div>
+<?php else : ?>
+    <div class="button-wrapper">
+        <a href="/auth" class="button button1">
+            <svg width="30" height="30" class="svgIcon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 14 18">
+                <path d="M7 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9Zm2 1H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z" />
+            </svg>
+        </a>
+    </div>
+<?php endif; ?>
 <div class="button-wrapper2">
     <button class="button button2">
         <svg width="30" height="30" class="svgIcon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 18 21">

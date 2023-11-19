@@ -22,14 +22,6 @@ class AuthController extends BaseController
     }
     public function save()
     {
-        //Validar la request
-        /*$validation = $this->validate([
-            'username' => 'required|min_length[3]',
-            'email' => 'required|valid_email|is_unique[my_users.email]',
-            'password' => 'required|min_length[5]',
-            'cpassword' => 'required|min_length[5]|matches[password]'
-        ]);*/
-
         $validation = $this->validate([
             'username' => [
                 'rules' => 'required|min_length[3]',
@@ -135,7 +127,8 @@ class AuthController extends BaseController
     {
         if (session()->has('loggedUser')) {
             session()->remove('loggedUser');
-            return redirect()->to('/auth?access=out')->with('fail', 'Has cerrado la sesión. ¡Vuelve pronto!');
+            //return redirect()->to('/auth?access=out')->with('fail', 'Has cerrado la sesión. ¡Vuelve pronto!');
+            return redirect()->to('/');
         }
     }
 

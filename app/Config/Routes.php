@@ -1,5 +1,6 @@
 <?php
 
+use App\Controllers\ProfileController;
 use App\Controllers\WorksController;
 use CodeIgniter\Router\RouteCollection;
 
@@ -48,18 +49,23 @@ $routes->group('auth', function ($routes) {
     $routes->post('update_password', 'AuthController::update_password');
 });
 
-$routes->group('dashboard', function ($routes) {
+/*$routes->group('dashboard', function ($routes) {
     $routes->get('/', 'DashboardController::index');
-    $routes->get('profile', 'DashboardController::profile');
-});
+    $routes->get('profile22', 'DashboardController::profile');
+});*/
 
 $routes->group('', ['filter' => 'AuthCheck'], function ($routes) {
     //Añadir todas las rutas protegidas por este filtro
-    $routes->get('/dashboard', 'DashboardController::index');
-    $routes->get('/dashboard/profile', 'DashboardController::profile');
+    $routes->get('/profile', 'ProfileController::index');
+    //$routes->get('/dashboard/profile', 'DashboardController::profile');
 });
 
 $routes->group('', ['filter' => 'AlreadyLoggedIn'], function ($routes) {
     $routes->get('/auth', 'AuthController::index');
     $routes->get('/auth/register', 'AuthController::register');
+});
+
+$routes->group('profile', function ($routes) {
+    $routes->get('/', 'ProfileController::index');
+    $routes->post('update', 'ProfileController::update');
 });

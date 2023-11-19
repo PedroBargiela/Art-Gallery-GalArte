@@ -8,7 +8,15 @@ class ExhibitionsController extends BaseController
 {
     public function index()
     {
-        echo view('exhibitions');
+        $data = [];
+
+        if (session()->get('loggedUser')) {
+            $data['isLoggedIn'] = true;
+        } else {
+            $data['isLoggedIn'] = false;
+        }
+
+        echo view('exhibitions', $data);
     }
 
     public function show($exhibitionSlug)
@@ -20,6 +28,12 @@ class ExhibitionsController extends BaseController
             // Exhibition Not Found
             echo "Exhibition Not Found for Slug: $exhibitionSlug";
         } else {
+            if (session()->get('loggedUser')) {
+                $data['isLoggedIn'] = true;
+            } else {
+                $data['isLoggedIn'] = false;
+            }
+
             echo view('exhibition', $data);
         }
     }

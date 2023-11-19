@@ -6,6 +6,14 @@ class ContactController extends BaseController
 {
     public function index()
     {
-        echo view('contact');
+        $data = [];
+
+        if (session()->get('loggedUser')) {
+            $data['isLoggedIn'] = true;
+        } else {
+            $data['isLoggedIn'] = false;
+        }
+
+        echo view('contact', $data);
     }
 }
