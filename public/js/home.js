@@ -152,6 +152,15 @@ window.onload = function() {
         closeMenu.style.display = 'none';// Oculta el botón de cerrar cuando se cierra el menú
     });
 
+    // Añade un nuevo evento para el menú hamburguesa
+    const hamburgerMenuToggle = document.querySelector('#check');
+
+    hamburgerMenuToggle.addEventListener('change', () => {
+        menu.classList.toggle('active');
+        menu.classList.toggle('inactive');
+        document.body.classList.toggle('no-scroll');
+    });
+
     var artistLink = document.querySelector('.menu-items a[href="/artists"]');
 
     //COmprueba si el ancho de la ventana del navegador es de 600px o menos

@@ -7,7 +7,7 @@
     <title>Inicio de Sesión</title>
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('/assets/favicon.ico'); ?>">
     <link rel="stylesheet" href="/css/login.css">
-    <link rel="stylesheet" href="">
+
 </head>
 
 <body>
@@ -16,7 +16,7 @@
     </a>
     <div class="container">
         <div class="card">
-            <a class="login">Inicia Sesión</a>
+            <a class="login">Iniciar Sesión</a>
             <hr>
             <form action="/auth/check" method="post" autocomplete="off">
                 <?= csrf_field(); ?>

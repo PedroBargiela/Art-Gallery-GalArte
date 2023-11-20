@@ -253,15 +253,159 @@ body.index {
     text-decoration: none;
     margin: 0 15px;
 }
+/*pushing a hamburger menu into a pillow texture like background*/
+
+.menuButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13%;
+    color: rgb(5, 5, 5, 0.5);
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 0.5em;
+    background: #171717;
+    border: 1px solid #171717;
+    transition: all .3s;
+    box-shadow: inset 4px 4px 12px #3a3a3a,
+            inset -4px -4px 12px #000000;
+    z-index: 1001;
+    }
+    
+    .menuButton:hover {
+    border: 1px solid black;
+    }
+    
+    .menuButton:active {
+    color: #666;
+    box-shadow: 6px 6px 12px #3a3a3a,
+            -6px -6px 12px #000000;
+    }
+    
+    input[type = "checkbox"] {
+    -webkit-appearance: none;
+    display: none;
+    visibility: hidden;
+    }
+    
+    .menuButton span {
+    width: 20px;
+    height: 3px;
+    background: rgb(200,200,200);
+    border-radius: 100px;
+    transition: 0.3s ease;
+    }
+    
+    input[type]:checked ~ span.top {
+    transform: translateY(290%)rotate(45deg);
+    width: 40px;
+    }
+    
+    input[type]:checked ~ span.bot {
+    transform: translateY(-270%) rotate(-45deg);
+    width: 40px;
+    box-shadow: 0 0 10px #495057;
+    }
+    
+    input[type]:checked ~ span.mid {
+    transform: translateX(-20px);
+    opacity: 0;
+    }
 
 @media (max-width: 600px) {
-    .logo img {
-        width: 20vw;
+    /* Muestra el menú hamburguesa y oculta la palabra "menú" en pantallas pequeñas */
+    .menuButton {
+        display: flex !important;
     }
-    .menu-toggle, .close-menu {
-        font-size: 8vw;
-        top: 3%;
-        right: -19%;
+    .menu-toggle {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5em;
+        position: fixed;
+        width: 100%;
+        height: 6vh;
+        background-color: rgb(204, 193, 193);
+        z-index: 1000;
+        overflow: hidden;
+    }
+    .navbar .logo {
+        position: absolute;
+        left: 47%;
+        transform: translateX(-50%);
+    }
+    .navbar .logo img {
+        position: relative;
+        left: auto;
+        right: auto;
+        width: 16vw;
+    }
+    .inactive {
+        clip-path: circle(0% at 0% 0);
+    }
+    #menu a.logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #menu a.logo img {
+        position: relative;
+        left: auto;
+        right: auto;
+        width: 25vw;
+    }
+    .navbar .menu-toggle, .navbar .close-menu {
+        font-size: 5vw;
+        position: absolute;
+        left: 2%;
+    }
+    .navbar .button-container {
+        display: flex;
+        flex-direction: row;
+        /*position: absolute;*/
+        justify-content: space-between;
+        margin-left: 10%;
+    }
+    .button-wrapper {
+        position: absolute;
+        top: 20%;
+        right: 20%;
+        z-index: 999;
+    }
+    .navbar .button-container .button-wrapper .button.button1.logged-in {
+        background-color: rgba(70, 168, 70, 0.7);
+    }
+    .button-wrapper2 {
+        position: absolute;
+        top: 20%;
+        right: 8%;
+        z-index: 999;
+    }
+    .navbar .button-wrapper, .navbar .button-wrapper2 {
+        display: inline-flex;
+        flex-direction: row;
+        margin-left: auto;
+    }
+    .navbar .button-wrapper .button, .navbar .button-wrapper2 .button {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: rgba(20, 20, 20, 0.7);
+        border: none;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.164);
+        cursor: pointer;
+        transition-duration: .3s;
+        overflow: hidden;
+        position: relative;
+        margin-left: 1em; /* Ajuste del margen entre los botones */
     }
     .menu-items{
         position: absolute;
@@ -276,5 +420,30 @@ body.index {
     }
     .footer-p {
         font-size: 3.5vw;
+    }
+    /* Estilos específicos para móviles */
+    .menu-toggle {
+        transform: none;
+    }
+    .menu-items {
+        flex-direction: row;
+    }
+    .button:hover {
+        width: 40px;
+        border-radius: 50px;
+        background-color: rgb(141, 137, 137);
+        align-items: center;
+    }
+    .button1.logged-in:hover {
+        background-color: rgb(70, 168, 70);
+    }
+    .button:hover .svgIcon {
+        width: 12px;
+        transform: translateY(0%);
+    }
+    .button:hover::before {
+        font-size: 2px;
+        opacity: 1;
+        transform: translateY(0px);
     }
 }

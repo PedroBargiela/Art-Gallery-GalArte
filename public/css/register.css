@@ -37,15 +37,6 @@ body {
         opacity: 0.6;
     }
 }
-
-img {
-    position: absolute;
-    top: 0%;
-    right: 47%;
-    width: 7vw;
-    height: auto;
-}
-
 .container {
     display: flex;
     justify-content: center;
@@ -130,5 +121,48 @@ form {
 .enter:hover {
     background-color: rgb(0, 0, 0);
     color: white;
+}
+
+@media (max-width: 600px) {
+    /* Estilos para .login */
+    .login {
+        font-size: 9vw;
+    }
+
+    /* Estilos para .card */
+    .card {
+        min-height: 200px;
+        width: 80%;
+        padding: 20px;
+    }
+
+    /* Estilos para form */
+    form {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    /* Estilos para .inputBox */
+    .inputBox {
+        margin-left: -5%;
+        padding: 3%;
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    /* Estilos para .inputBox input */
+    .inputBox input {
+        padding: 5px;
+        font-size: 5vw;
+    }
+
+    /* Estilos para .enter */
+    .enter {
+        height: 50px;
+        width: 110px;
+        font-size: 3vw;
+        margin-top: 2.5%;
+        margin-bottom: 0.5em;
+    }
 }
 

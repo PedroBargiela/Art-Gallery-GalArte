@@ -58,6 +58,16 @@ closeMenu.addEventListener('click', () => {
     closeMenu.style.display = 'none';// Oculta el botón de cerrar cuando se cierra el menú
 });
 
+// Añade un nuevo evento para el menú hamburguesa
+const hamburgerMenuToggle = document.querySelector('#check');
+
+hamburgerMenuToggle.addEventListener('change', () => {
+    menu.classList.toggle('active');
+    menu.classList.toggle('inactive');
+    document.body.classList.toggle('no-scroll');
+});
+
+
 window.onload = function() {
     var artistLink = document.querySelector('.menu-items a[href="/artists"]');
 
@@ -76,19 +86,5 @@ function isMobile() {
     return window.innerWidth <= 600;
 }
 
-window.addEventListener('scroll', function() {
-    if (isMobile()) {
-        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        if (scrollTop > lastScrollTop) {
-            //Si se está desplazando hacia abajo, oculta el encabezado
-            header.style.display = 'none';
-        } else {
-            //Si se está desplazando hacia arriba, muestra el encabezado
-            header.style.display = 'block';
-        }
-        lastScrollTop = scrollTop;
-    } else {
-        //Si no es un móvil, siempre muestra el encabezado
-        header.style.display = 'block';
-    }
-});
+
+
