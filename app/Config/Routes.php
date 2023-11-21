@@ -23,6 +23,8 @@ $routes->group('artists', function ($routes) {
 $routes->group('works', function ($routes) {
     $routes->get('/', 'WorksController::index');
     $routes->get('(:segment)', 'WorksController::show/$1');
+    $routes->get('addToCart/(:num)', 'WorksController::addToCart/$1');
+    $routes->get('addToCartAndRedirect/(:num)', 'WorksController::addToCartAndRedirect/$1');
 });
 
 $routes->post('form/send', 'FormController::send');
@@ -68,4 +70,10 @@ $routes->group('', ['filter' => 'AlreadyLoggedIn'], function ($routes) {
 $routes->group('profile', function ($routes) {
     $routes->get('/', 'ProfileController::index');
     $routes->post('update', 'ProfileController::update');
+});
+
+$routes->group('cart', function ($routes) {
+    $routes->get('/', 'CartController::index');
+    $routes->get('decreaseQuantity/(:num)', 'CartController::decreaseQuantity/$1');
+    $routes->get('removeItem/(:num)', 'CartController::removeItem/$1');
 });

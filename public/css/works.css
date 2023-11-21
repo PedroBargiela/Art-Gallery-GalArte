@@ -140,6 +140,31 @@ body {
     padding: 1rem;
 }
 
+button {
+    margin-bottom: 4%;
+    margin-top: -4%;
+    margin-left: 4%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    padding: 12px 32px;
+    border-radius: 22px;
+    box-shadow: 2px 2px 1px  black;
+    transition: all .2s ease;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button:hover {
+    transform: translate(-2px, -1px);
+    box-shadow: 7px 7px 1px  rgb(0, 0, 0);
+    transition: all .2s ease-in;
+}
+
 .load-more-button {
     padding: 20px;
     font-size: 2vw;
@@ -218,11 +243,16 @@ body {
     }
     .card .artwork-info p {
         font-size: 3vw;
+        margin-bottom: -3%;
     }
     #filter-form {
         margin-top: 30%;
     }
     #filter-form select {
         font-size: 4vw;
+    }
+    button {
+        padding: 3% 6%;
+        font-size: 0.6em;
     }
 }

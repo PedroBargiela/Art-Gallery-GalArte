@@ -45,4 +45,49 @@ class WorksController extends BaseController
             echo view('work', $data);
         }
     }
+    public function addToCart($workId)
+    {
+        // Comprueba si el usuario ha iniciado sesión
+        if (!session()->get('loggedUser')) {
+            return redirect()->to('/auth');
+        }
+
+        // Comprueba si el carrito ya existe en la sesión
+        if (!session()->get('cart')) {
+            session()->set('cart', []);
+        }
+
+        // Añade el producto al carrito
+        $cart = session()->get('cart');
+        if (isset($cart[$workId])) {
+            $cart[$workId]++;
+        } else {
+            $cart[$workId] = 1;
+        }
+        session()->set('cart', $cart);
+    }
+    public function addToCartAndRedirect($workId)
+    {
+        // Comprueba si el usuario ha iniciado sesión
+        if (!session()->get('loggedUser')) {
+            return redirect()->to('/login');
+        }
+
+        // Comprueba si el carrito ya existe en la sesión
+        if (!session()->get('cart')) {
+            session()->set('cart', []);
+        }
+
+        // Añade el producto al carrito
+        $cart = session()->get('cart');
+        if (isset($cart[$workId])) {
+            $cart[$workId]++;
+        } else {
+            $cart[$workId] = 1;
+        }
+        session()->set('cart', $cart);
+
+        // Redirige al usuario al carrito
+        return redirect()->to('/cart');
+    }
 }

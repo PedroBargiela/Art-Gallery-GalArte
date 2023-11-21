@@ -48,6 +48,41 @@
     <div id="custom-cursor"></div>
 
     <script type="module" src="/js/auth.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("form").on("submit", function(event) {
+                event.preventDefault();
+
+                $.ajax({
+                    url: '/auth/save',
+                    type: 'post',
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        // Muestra la notificación de éxito
+                        toastr.options = {
+                            "closeButton": false,
+                            "debug": false,
+                            "newestOnTop": false,
+                            "progressBar": false,
+                            "positionClass": "toast-top-center",
+                            "preventDuplicates": false,
+                            "onclick": null,
+                            "showDuration": "300",
+                            "hideDuration": "1000",
+                            "timeOut": "3000",
+                            "extendedTimeOut": "1000",
+                            "showEasing": "swing",
+                            "hideEasing": "linear",
+                            "showMethod": "fadeIn",
+                            "hideMethod": "fadeOut"
+                        }
+                        toastr.success('¡Te has registrado con éxito!');
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

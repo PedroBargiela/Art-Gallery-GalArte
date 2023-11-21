@@ -29,6 +29,9 @@
             <p><?= esc($work['dimensions']) ?></p>
             <p><?= esc($work['year']) ?></p>
             <p><?= esc($work['price']) ?>€</p>
+            <button>
+                <a href="/works/addToCartAndRedirect/<?= $work['id'] ?>">Añadir al carrito</a>
+            </button>
             <hr>
         <?php else : ?>
             <p>Work Not Found</p>

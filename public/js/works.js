@@ -102,3 +102,44 @@ document.addEventListener('DOMContentLoaded', (event)=> {
     showPage(currentPage);
 
 });
+
+$(document).ready(function() {
+    $(".addToCart").click(function(e) {
+        e.preventDefault();
+        var url = $(this).attr('href');
+        $.ajax({
+            url: url,
+            success: function(result) {
+                // Comprueba si la operación fue exitosa
+                if (result.success) {
+                    // Muestra la notificación de éxito
+                    toastr.options = {
+                        "closeButton": false,
+                        "debug": false,
+                        "newestOnTop": false,
+                        "progressBar": false,
+                        "positionClass": "toast-top-center",
+                        "preventDuplicates": false,
+                        "onclick": null,
+                        "showDuration": "300",
+                        "hideDuration": "1000",
+                        "timeOut": "3000",
+                        "extendedTimeOut": "1000",
+                        "showEasing": "swing",
+                        "hideEasing": "linear",
+                        "showMethod": "fadeIn",
+                        "hideMethod": "fadeOut"
+                    }
+                    toastr.success('¡Has añadido el producto a tu cesta!');
+                } else {
+                    // Maneja el error aquí
+                    toastr.error('Hubo un problema al añadir el producto al carrito.');
+                }
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                // Maneja el error aquí
+                toastr.error('Hubo un problema al añadir el producto al carrito.');
+            }
+        });
+    });
+});

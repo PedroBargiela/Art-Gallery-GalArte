@@ -39,7 +39,7 @@
                 </div>
                 <button class="enter btn btn-primary btn-block" type="submit">Iniciar Sesión</button>
                 <br>
-                No tienes cuenta?<a href="/auth/register"> Crea unua nueva</a>
+                No tienes cuenta?<a href="/auth/register"> Crea una nueva</a>
             </form>
         </div>
     </div>

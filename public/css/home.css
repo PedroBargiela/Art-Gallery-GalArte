@@ -468,25 +468,6 @@ body.index {
     .slide-description {
         font-size: 9vw;
     }
-    /*.logo img {
-        width: 26vw;
-    }
-    .menu-toggle, .close-menu {
-        font-size: 8vw;
-        top: 3%;
-        right: -18%;
-    }
-    .menu-items{
-        position: absolute;
-        top: 50%;
-        left: 45%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        width: 80%;
-    }
-    .menu-items a {
-        font-size: 12vw;
-    }*/
     .menuButton {
         display: flex !important;
     }
@@ -507,7 +488,7 @@ body.index {
     }
     .navbar .logo {
         position: absolute;
-        left: 45%;
+        left: 47%;
         transform: translateX(-50%);
     }
     .navbar .logo img {
